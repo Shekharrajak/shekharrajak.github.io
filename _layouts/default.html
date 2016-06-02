@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> -->
+
+    <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Shekhar Prasad Rajak, GSoC'16, SymPy,Open Source Developer, CGBSE topper">
+
+		<meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
+		<title>GSoC </title>
+		<meta name="keywords" content="GSoC 2016 , Google Summer of Code,
+		Shekhar, Shekhar Prasad, Shekhar Prasad Rajak, NITW , NIT Warangal, Arjunda, CGBSE Topper, Blog, SymPy,
+		B.Tech CSE, Open Source, Contributor" />
+		<meta name="author" content="Shekhar Prasad Rajak" />
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/_css/normalizeFront.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/_css/demoFront.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/_css/componentFront.css" />
+
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/_css/menu_nav.css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type = "text/javascript">
+			 $(window).load(function() {
+					$(".bg_loader").delay(500).fadeOut(500);
+			 });
+		</script>
+		  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+		<style>
+		/*LOADER*/
+			 .bg_loader { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #373B44; z-index: 9999; width: 100%; height: 100%; }
+			 .loader { position: absolute; z-index: 10000; width: 30px; height: 30px; top: 50%; left: 50%; margin:-15px 0 0 -15px; border: 3px solid #fff; opacity: 0;
+			 -webkit-border-radius: 30px;
+			 border-radius: 30px;
+			 -webkit-animation: loader 2s ease-out;
+			 animation: loader 2s ease-out;
+			 -webkit-animation-iteration-count: infinite;
+			 animation-iteration-count: infinite;
+			 }
+
+			 @-webkit-keyframes loader {
+			 0% { -webkit-transform: scale(0.1); opacity: 0; }
+			 50% { opacity: 1; }
+			 100%  { -webkit-transform: scale(1.2); opacity: 0; }
+			 }
+			 @keyframes loader {
+			 0% { transform: scale(0.1); opacity: 0; }
+			 50% { opacity: 1; }
+			 100%  { transform: scale(1.2); opacity: 0; }
+			 }
+
+			 body {
+            font-family: Ubuntu, "times new roman", times, roman, serif;
+         }
+		</style>
+		<link rel="shortcut icon" href="{{ site.baseurl }}/images/img/spr.png">
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="bg_loader"><div class="loader"></div></div>
+
+		<div id='cssmenu'>
+         <ul>
+            <li data-menuanchor = "page2" ><a href='http://s-hacker.info/index.html#page2'><span>About ~</span></a></li>
+            <li data-menuanchor = "page3"><a href='http://s-hacker.info//index.html#page3'><span>Experience ~</span></a></li>
+            <li data-menuanchor = "page4"><a href='http://s-hacker.info//index.html#page4'><span>Achievements ~</span></a></li>
+            <li data-menuanchor = "page5"><a href='http://s-hacker.info//index.html#page5'><span>Attended Seminars/Workshops/Other ~</span></a></li>
+            <li><a href='index.html'><span>Blog ~</span></a></li>
+            <li data-menuanchor = "page6" class='last'><a href='http://s-hacker.info//index.html#page6'><span>Contact Me ~</span></a></li>
+         </ul>
+      </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
