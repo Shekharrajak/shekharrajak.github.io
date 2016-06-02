@@ -2,7 +2,111 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="container" style= "padding-top:50px;">
+			<!-- Top Navigation -->
+
+			<header class="codrops-header">
+				<h1> Google Summer of Code 2016</h1>
+				<p> Organization : SymPy<br> Contribution before GSoC and GSoc Reports. </p>
+			</header>
+			<section class="demo-1">
+				<div class="grid">
+
+          {% for post in site.posts %}
+              <a href="{{ site.baseurl }}{{ post.url }}">
+      					<div class="box">
+      						<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+      							<line class="top" x1="0" y1="0" x2="3000" y2="0"/>
+      							<line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+      							<line class="bottom" x1="0" y1="400" x2="-3000" y2="300"/>
+      							<line class="right" x1="0" y1="0" x2="0" y2="0"/>
+      						</svg>
+
+
+
+                      <h6>{{ post.title }}</h6>
+
+                      <div class="entry">
+                        {{ post.excerpt }}
+                      </div>
+
+                </div>
+      				</a>
+          {% endfor %}
+
+				<a href="contributions.html">
+					<div class="box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+							<line class="top" x1="0" y1="0" x2="3000" y2="0"/>
+							<line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+							<line class="bottom" x1="0" y1="400" x2="-3000" y2="300"/>
+							<line class="right" x1="0" y1="0" x2="0" y2="0"/>
+						</svg>
+						<h6> Contribution before GSoC 2016</h6>
+						<span> </span>
+						<span> How I started contribution and learned about Open Source Development.</span>
+					</div>
+				</a>
+
+				<a href="gsoc16_project.html">
+					<div class="box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+							<line class="top" x1="0" y1="0" x2="3000" y2="0"/>
+							<line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+							<line class="bottom" x1="0" y1="400" x2="-3000" y2="300"/>
+							<line class="right" x1="0" y1="0" x2="0" y2="0"/>
+						</svg>
+						<h6> GSoC 2016 Application</h6>
+						<span> </span>
+						<span> Related to my GSoC Project and discussions. </span>
+					</div>
+				</a>
+
+				<a href="comm_bonding.html">
+					<div class="box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+							<line class="top" x1="0" y1="0" x2="3000" y2="0"/>
+							<line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+							<line class="bottom" x1="0" y1="400" x2="-3000" y2="300"/>
+							<line class="right" x1="0" y1="0" x2="0" y2="0"/>
+						</svg>
+						<h6> Community Bonding Period</h6>
+						<span> GSoC 2016 Report </span>
+						<span>  22 April 2016 - 23 May 2016</span>
+					</div>
+				</a>
+
+				<a href="coding_week1.html">
+					<div class="box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+							<line class="top" x1="0" y1="0" x2="3000" y2="0"/>
+							<line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+							<line class="bottom" x1="0" y1="400" x2="-3000" y2="300"/>
+							<line class="right" x1="0" y1="0" x2="0" y2="0"/>
+						</svg>
+						<h6> Coding Period Week 1</h6>
+						<span> GSoC 2016 Report </span>
+						<span>  23 May 2016 - 28 May 2016 </span>
+					</div>
+				</a>
+				<a href="coding_week2.html">
+					<div class="box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+							<line class="top" x1="0" y1="0" x2="3000" y2="0"/>
+							<line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+							<line class="bottom" x1="0" y1="400" x2="-3000" y2="300"/>
+							<line class="right" x1="0" y1="0" x2="0" y2="0"/>
+						</svg>
+						<h6> Coding Period Week 2</h6>
+						<span> GSoC 2016 Report </span>
+						<span>  29 May 2016 - 4 June 2016 </span>
+					</div>
+				</a>
+			</div><!--
+			</div><!-- /grid -->
+			</section>
+
+<!-- <div class="posts"> -->
   {% for post in site.posts %}
     <article class="post">
 
@@ -15,4 +119,4 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
-</div>
+<!-- </div> -->
