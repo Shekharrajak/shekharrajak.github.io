@@ -1,0 +1,43 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/component.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type = "text/javascript">
+     $(window).load(function() {
+        $(".bg_loader").delay(500).fadeOut(500);
+     });
+  </script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+  <style>
+  /*LOADER*/
+     .bg_loader { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #373B44; z-index: 9999; width: 100%; height: 100%; }
+     .loader { position: absolute; z-index: 10000; width: 30px; height: 30px; top: 50%; left: 50%; margin:-15px 0 0 -15px; border: 3px solid #fff; opacity: 0;
+     -webkit-border-radius: 30px;
+     border-radius: 30px;
+     -webkit-animation: loader 2s ease-out;
+     animation: loader 2s ease-out;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     }
+
+     @-webkit-keyframes loader {
+     0% { -webkit-transform: scale(0.1); opacity: 0; }
+     50% { opacity: 1; }
+     100%  { -webkit-transform: scale(1.2); opacity: 0; }
+     }
+     @keyframes loader {
+     0% { transform: scale(0.1); opacity: 0; }
+     50% { opacity: 1; }
+     100%  { transform: scale(1.2); opacity: 0; }
+     }
+
+     body {
+          font-family: Ubuntu, "times new roman", times, roman, serif;
+       }
+  </style>
+  <link rel="shortcut icon" href="{{ site.baseurl }}/images/img/spr.png">
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
+<div class="bg_loader"><div class="loader"></div></div>

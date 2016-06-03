@@ -1,6 +1,48 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+    {% include head-post.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> -->
+
+
+    <body class="demo-6">
+      <div id="container" class="container intro-effect-grid">
+        {% include header-post-default.html %}
+        <article class="content">
+          {{ content }}
+        </article>
+      </div>
+    </body>
+
+
+
+
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
+
+  <!-- Top Navigation -->
+
+
+
 
 <article class="page">
 
