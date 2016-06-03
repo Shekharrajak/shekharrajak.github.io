@@ -181,7 +181,7 @@ button.trigger span::after {
 }
 
 .content > div:not(.title) p:first-child {
-	font-size: 1.35em;
+	/*font-size: 1.35em;*/
 }
 
 .content h3 {
