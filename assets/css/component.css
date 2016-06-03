@@ -2,7 +2,7 @@
 
 html, body, .container, .header {
 	height: 100%;
-	
+
 }
 
 /* Header */
@@ -1051,7 +1051,7 @@ button.trigger span::after {
 }
 
 .intro-effect-grid .header h1 {
-	
+
 	font-weight: 700;
 	padding: 0 0 0.6em;
 }
@@ -1135,13 +1135,7 @@ button.trigger span::after {
 	transform: translateY(-10px);
 }
 
-.intro-effect-grid .grid li:first-child {
-	top: 0px;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-image: url(../img/google-summer-of-code.jpg);
-}
+
 /*
 .intro-effect-grid .grid li:nth-child(2) {
 	top: 50%;

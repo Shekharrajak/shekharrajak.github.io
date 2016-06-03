@@ -3,7 +3,7 @@
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <!-- {% include meta.html %} -->
+    {% include meta.html %}
     {% if page.type != "post" %}
     {% include head-front.html %}
     <body>
