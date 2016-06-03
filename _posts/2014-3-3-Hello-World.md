@@ -3,6 +3,7 @@ layout: post
 title: GSoC 2016 Community Bonding Period
 week: Community Bonding Period( 23 April 2016 - 30 April 2016)
 posted_on: 24 April 2016
+type: post
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).

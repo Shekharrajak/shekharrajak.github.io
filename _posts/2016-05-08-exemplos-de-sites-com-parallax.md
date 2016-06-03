@@ -1,5 +1,6 @@
 ---
 layout: post
+type: post
 title: "Exemplos de sites com Parallax"
 date: 2016-05-08 10:16:24
 image: '/assets/img/parallax-sites/health.png'
@@ -20,7 +21,7 @@ introduction: "Se inspire com alguns sites feitos usando a técnica do parallax.
 
 Fala pessoal! Hoje eu venho a trazer para vocês um post bem simples, mais para vocês se inspirarem um pouco e verem algumas das várias possibilidades de uma técnica que eu acho bastante interessante. Eu vou começar a criar posts que vão entrar na categoria de collections, onde vou juntar vários sites para vocês se inspirarem que utilizem certa técnica ou tecnologia.
 
-Enquanto vou escrevendo, vou ouvindo um bom som na playlist [Volume Máximo](https://open.spotify.com/user/spotifybrazilian/playlist/7w7CeDkSKeGPBfHd3HSi98) do Spotify. 
+Enquanto vou escrevendo, vou ouvindo um bom som na playlist [Volume Máximo](https://open.spotify.com/user/spotifybrazilian/playlist/7w7CeDkSKeGPBfHd3HSi98) do Spotify.
 
 ## O efeito parallax
 
@@ -142,20 +143,3 @@ Animações sutis nos elementos enquanto é feito o scroll. [Vá para o site](ht
 
 Bom galera, espero que tenham se inspirado com esses vários sites maravilhosos. Eu sou viciado em ver referências e roubar pequenos detalhes para mim =p
 Então espero que tenha bastante gente que goste desse tipo de coisa também.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

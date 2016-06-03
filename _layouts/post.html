@@ -1,21 +1,22 @@
 ---
 layout: default
-type: post
+
 ---
 
 
 <!DOCTYPE html>
 	{% include head-post.html %}
-	{% include header-post-default.html %}
+
 <body class="demo-6">
-<div id="container" class="container intro-effect-grid">
+	<div id="container" class="container intro-effect-grid">
+	{% include header-post-default.html %}
+
+
 			<!-- Top Navigation -->
 			<article class="content">
 				{{ content }}
 			</article>
-			<div class="entry">
-
-  </div>
+</div>
 
   <!-- <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
@@ -24,3 +25,4 @@ type: post
   {% include disqus.html %}
 
 </body>
+{% include footer-post.html %}
