@@ -1,32 +1,27 @@
 ---
 layout: post
-title: GSoC Project
+title: GSoC Application
 week:
 posted_on: 24 April 2016
 type: post
 ---
-.result img{
-			 	    width: 920px;
-    				height: 500px;
-    				border: 3px solid #73AD21;
 
-			 }
- 
+
 ### Getting up for Project
 
-So it was around last week of Jan 2016\. I had 2 personal chat with [Amit](https://github.com/aktech) (GSoC 2015) first one before starting the contribution and second was this time. I followed his advice, when I didn't know how to contribute to SymPy .
+So it was around last week of Jan 2016\. I had 2 personal chat with [Amit](https://github.com/aktech) (GSoC 2015) first one before starting the contribution and second was this time. I followed his advice, when I didn't know how to contribute to `SymPy` .
 
-Now after the good contribution I asked some questions about Application process and Project for SymPy. According to his advice I started working on choosing the project as early as possible and discussing the ideas with senior developers.  
-As I was interested and found some bugs on Solveset, Solvers module. So I decided to work on Solveset module and improve this.
+Now after the good contribution I asked some questions about Application process and Project for `SymPy`. According to his advice I started working on choosing the project as early as possible and discussing the ideas with senior developers.  
+As I was interested and found some bugs on `Solveset`, Solvers module. So I decided to work on `Solveset` module and improve this.
 
 ### sympy/solvers
 
 **Abstract of my application**  
-" Solvers module is mostly used module, so it is very important that Solver works perfectly and give all solution. Harsh Gupta( GSoC 2014) and Amit Kumar (GSoC 2015) have worked on Solveset submodule. Solveset returns a set object and a set object takes care of all types of output. But to make Solveset fully functional, need to implement Non-linear multivariate Equation and System of multivariate Equation solver, System of Inequality solvers, Transcendental Equation solver and have to improve solve_trig, _invert methods . So in this summer I want to implement these remaining things, to complete Solveset."
+" Solvers module is mostly used module, so it is very important that Solver works perfectly and give all solution. Harsh Gupta( GSoC 2014) and Amit Kumar (GSoC 2015) have worked on Solveset submodule. Solveset returns a set object and a set object takes care of all types of output. But to make Solveset fully functional, need to implement Non-linear multivariate Equation and System of multivariate Equation solver, System of Inequality solvers, Transcendental Equation solver and have to improve solve_trig, `_invert methods` . So in this summer I want to implement these remaining things, to complete Solveset."
 
 ### Discussions
 
-I started discussion on Solveset and Solver module in SymPy. Thanks to all the active members in gitter chat room and mailing list, they helped me a lot to improve my ideas. Special thanks to [Aaron Meurer](https://github.com/asmeurer) , [Harsh Gupta](https://github.com/hargup) , [Amit Kumar](https://github.com/aktech) , [Kalevi Suominen](https://github.com/jksuom) ,[Christopher Smith](https://github.com/smichr) and all others who helped me in gitter chat.
+I started discussion on `Solveset` and Solver module in `SymPy`. Thanks to all the active members in gitter chat room and mailing list, they helped me a lot to improve my ideas. Special thanks to [Aaron Meurer](https://github.com/asmeurer) , [Harsh Gupta](https://github.com/hargup) , [Amit Kumar](https://github.com/aktech) , [Kalevi Suominen](https://github.com/jksuom) ,[Christopher Smith](https://github.com/smichr) and all others who helped me in gitter chat.
 
 Threads:  
 * [mailing list](https://groups.google.com/forum/#!topic/sympy/XhgBx2bVFaA)  
