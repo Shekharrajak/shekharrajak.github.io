@@ -5,10 +5,11 @@ week: 23 May 2016 - 28 May 2016
 posted_on: 22 Mayl 2016
 type: post
 ---
-
 ### nlinsolve continue
 
 * You can read the problems in old solver `_solve_system` in [previous blog](http://shekharrajak.github.io/Community-Bonding-Period/) , if you haven't.
+
+**PR [nlinsolve](https://github.com/sympy/sympy/pull/11111)**
 
 **How it is better than old solver _solve_system :**
 
@@ -26,9 +27,7 @@ For example : solution = `{a : 1/d, b : -d, c : -1/d, d : d}` then in complement
 * **Unknowingly added features :** `nlinsolve` can return solution for positive dimensional linear system and simple linear system. But I recommend to use it for linear systems, since `linsolve` can do far better than `nlinsolve` for linear system.
 **How :** Since it is using Groebner basis (inside `solve_poly_system`) of the system for polynomial equations. If it fails for some equation then basis is used in substitution method. So it can solve positive dimensional linear system.
 
---------------------------------------------------------------------------------------------------
-PR [nlinsolve](https://github.com/sympy/sympy/pull/11111)
----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ### Trigonometric inequality solution in General form
 

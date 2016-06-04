@@ -1046,7 +1046,7 @@ button.trigger span::after {
 }
 
 .intro-effect-grid .content > div {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	color: #2e3337;
 }
 
