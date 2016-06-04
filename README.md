@@ -6,7 +6,7 @@
 
 # My Additions :
 
-* I already had blog template. To get the feed.xml I integrated my static blog with Jekyll.
+* I already had [blog](http://s-hacker.info/blog/gsoc16/subcat.html) template. To get the feed.xml I integrated my static blog with Jekyll.
 
 * This is partially created many things need to modify. specially `_config.yml`
 and `_layout` folder.
