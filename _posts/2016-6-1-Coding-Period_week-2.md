@@ -39,8 +39,13 @@ in complicated form.
 * I added `reduce_imageset` in `solveset.py` to reduce the number of union returned by `_solve_trig` method. As Harsh said it is
 no specific to `solveset`, so I moved the method to `sets/sets.py`. I added the doctests and test-cases in `test_sets.py`.
 
+* Now solving the `exp` form directly using `solveset`. This makes the less number of `ImageSet` in many cases.
+But to solve equation having `tan` in it, will be complicated, for that I changed the `solve_rational` method,
+so that it can handle  `exp` with `I`. in denominator.
+
 * Now using `_solve_as_poly` when `solveset` can't solve it using `exp` form. If this also can't solve then retuns
 the `ConditionSet` having simple trig functions, which is understandable.
+
 
 **reduce_imageset :**
 
