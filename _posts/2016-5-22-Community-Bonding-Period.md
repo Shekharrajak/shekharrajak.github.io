@@ -43,7 +43,7 @@ A non-linear system of equations is a system in which at least one of the variab
 
 ### How old Solver handle this :
 
-* SymPy uses _solve_system function to solve all kind of systems( linear, non linear, Multivariate Equations).
+* SymPy uses `_solve_system` function to solve all kind of systems( linear, non linear, Multivariate Equations).
 
 * `_solve_system`, try to converts all the equations into Poly and checks for linear system.
 If all the Poly equations are linear then solve this using minsolve_linear_system or solve_linear_system.
@@ -58,7 +58,7 @@ all the remain unsolved variables.
 
 * `solve_poly_system` can return solution for zero-dimensional only. So when polynomial	Equation system is positive dimensional system (infinite solution) then `NotImplementedError` is returned by `_solve_poly_system`.
 
-* Elimination, substitution and solve_poly_system is in one function _solve_system. So it is messy.
+* Elimination, substitution and solve_poly_system is in one function `_solve_system`. So it is messy.
 
 * When it solves for unsolved symbol, after substituting known values in the equation using `solve` then we don't get solution in general form. eg. if equation is sin(x) + y = 0 and known solution is y = -1 then solve returns pi/2.
 
@@ -125,7 +125,7 @@ If we are solving `a + 1/d` for `d` then `solveset` will return` FiniteSet(-1/a)
 
 **What I think :** For complex/real solution we will get next solution( after substituting that solution). Need to check complex solution if no real solution from `solveset` (inside substitution method)
 
-**I continued the work and next week I tried to fix these problems and almost succeed.My further work on `nlinsolve` is [here](http://shekharrajakgithub.io/) **
+**I continued the work and next week I tried to fix these problems and almost succeed.My further work on `nlinsolve` is [here](http://shekharrajakgithub.io/Coding-Period-Week-1/)**
 
 ## Solveset for non symbol
 
