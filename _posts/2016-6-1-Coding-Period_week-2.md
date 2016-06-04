@@ -25,5 +25,29 @@ We know answer is `[0 < x <120/13 and 2(x-6)/3 <= y <= (20-x)/5]`
 
 * solveset(sin(x)-y, x ) doesn't work right now. But we know we can get solution using invert_real.
 
-* In this PR `solveset_real(tan(x), x)` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)` 
+* In this PR `solveset_real(tan(x), x)` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)`
 but I want `imageset(Lambda(n, n*pi), S.Integers)`.
+
+* I added `reduce_imageset` in `solveset.py` to reduce the number of union returned by `_solve_trig` method. As Harsh said it is
+no specific to `solveset`, so I moved the method to `sets/sets.py`. I added the doctests and test-cases in `test_sets.py`.
+
+**reduce_imageset :**
+
+* `reduce_imageset` take the `ImageSet` or Union of `ImageSet` and returns the minimum number of `ImageSet`.
+
+* First we extract the `Lambda` expression from the each `ImageSet` and take principle values. Separate the positive and negative principle values and sort them.
+
+* +ve and -ve values are passed into `interpolate` method defined in `polys/polyfuncs.py` to get the general function in terms
+of Dummy `n`.
+
+* If only one `Imageset` or value in +ve or -ve value list then return that as it is. Here we need to note that Dummy `n` defined here
+is different then original lambda expression, so need to return original `imageset`. So I am storing original `ImageSet` in dict with
+its principle vales.
+
+* If more than one +ve/-ve values are there then interpolate expression will be `ImageSet` expression and return.
+
+* Here I separe the -ve and +ve values because interpolate returns complicated expressions if we both types of values.
+
+* Also I sorted the +ve and -ve list, to get simplified expression from interpolate.
+
+     
