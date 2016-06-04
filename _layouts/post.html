@@ -19,6 +19,8 @@ layout: default
 					{{ content }}
 					</p>
 			</div>
+			<div id="disqus_thread"></div>
+
 			</article>
 		</div>
 
@@ -26,7 +28,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div> -->
 
-  {% include disqus.html %}
 
+  {% include disqus.html %}
 
 {% include footer-post.html %}
