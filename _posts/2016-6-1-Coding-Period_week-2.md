@@ -25,5 +25,5 @@ We know answer is `[0 < x <120/13 and 2(x-6)/3 <= y <= (20-x)/5]`
 
 * solveset(sin(x)-y, x ) doesn't work right now. But we know we can get solution using invert_real.
 
-* In this PR `solveset_real(tan(x), x)`` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)``  
-but I want ` imageset(Lambda(n, n*pi), S.Integers)`.
+* In this PR `solveset_real(tan(x), x)` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)` 
+but I want `imageset(Lambda(n, n*pi), S.Integers)`.
