@@ -23,13 +23,24 @@ We know answer is `[0 < x <120/13 and 2(x-6)/3 <= y <= (20-x)/5]`
 
 * PR [#11188](https://github.com/sympy/sympy/pull/11188)
 
-* solveset(sin(x)-y, x ) doesn't work right now. But we know we can get solution using invert_real.
+**Problme in old method :**
 
-* In this PR `solveset_real(tan(x), x)` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)`
-but I want `imageset(Lambda(n, n*pi), S.Integers)`.
+* `_solve_trig` changes the trig equation in `exp` form (it's fine). But then fraction and solving equation in
+for it's parts makes more number of `exp`. If we have more number of `exp` then we get more number of `imageset`,
+Since we convert `_invert`.
+
+* It retuns `ConditionSet` when it can't solve, but its expression is in ` exp` form mostly with `I` and
+in complicated form.
+
+* some times `_solve_as_poly` can solve Trig equations, but it is not using it.
+
+**New implemention :**
 
 * I added `reduce_imageset` in `solveset.py` to reduce the number of union returned by `_solve_trig` method. As Harsh said it is
 no specific to `solveset`, so I moved the method to `sets/sets.py`. I added the doctests and test-cases in `test_sets.py`.
+
+* Now using `_solve_as_poly` when `solveset` can't solve it using `exp` form. If this also can't solve then retuns
+the `ConditionSet` having simple trig functions, which is understandable.
 
 **reduce_imageset :**
 
@@ -50,4 +61,9 @@ its principle vales.
 
 * Also I sorted the +ve and -ve list, to get simplified expression from interpolate.
 
-     
+**Problems :**
+
+* solveset(sin(x)-y, x ) doesn't work right now. But we know we can get solution using invert_real.
+
+* In this PR `solveset_real(tan(x), x)` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)`
+but I want `imageset(Lambda(n, n*pi), S.Integers)`.
