@@ -8,7 +8,7 @@ type: post
 
 ### SymPy :
 
-`[SymPy](http://www.sympy.org/en/index.html)` is a Python library for symbolic mathematics. It aims to become a full-featured Computer Algebra System (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible.
+[SymPy](http://www.sympy.org/en/index.html) is a Python library for symbolic mathematics. It aims to become a full-featured Computer Algebra System (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible.
 
 It was month of August 2015, when I was learning new libraries in python and somehow reached at Amit's blog about `SymPy` and his contribution to `SymPy`. I am very much interested in Mathematics so it was pretty amazing to see how `SymPy` is solving equations and doing mathematics using python.
 
