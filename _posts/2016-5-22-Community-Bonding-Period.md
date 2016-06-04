@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GSoC 2016 Community Bonding Period
+title: Community Bonding Period
 week: Community Bonding Period( 23 April 2016 - 30 April 2016)
 posted_on: 22 May 2016
 type: post
