@@ -25,9 +25,9 @@ We know answer is `[0 < x <120/13 and 2(x-6)/3 <= y <= (20-x)/5]`
 
 **Problme in old method :**
 
-* `_solve_trig` changes the trig equation in `exp` form (it's fine). But then fraction and solving equation in
+* `_solve_trig` changes the trig equation in `exp` form (it's fine). But then fraction and solving equation
 for it's parts makes more number of `exp`. If we have more number of `exp` then we get more number of `imageset`,
-Since we convert `_invert`.
+Since we `_invert` for each `exp` factors.
 
 * It retuns `ConditionSet` when it can't solve, but its expression is in ` exp` form mostly with `I` and
 in complicated form.
