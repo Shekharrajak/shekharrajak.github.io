@@ -125,3 +125,12 @@ this is returning
 But original answer is `emptyset`.
 
 * Another thing is we are converting expressions into polynomial using `.as_poly(*symbols, extension=True)` so need to remove extra solution. code is added for this and works fine.
+
+**Issues :**
+
+ Meanwhile I found some issues.
+
+* [issues/11184](https://github.com/sympy/sympy/issues/11184) - Expressions having nested `sqrt` returns some solution
+, but original solution is EmptySet.
+
+* [issues/11175](https://github.com/sympy/sympy/issues/11175) - bug in `is_zero_dimensional`.

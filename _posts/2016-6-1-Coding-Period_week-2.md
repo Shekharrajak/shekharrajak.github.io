@@ -20,13 +20,13 @@ We know answer is `[0 < x <120/13 and 2(x-6)/3 <= y <= (20-x)/5]`
 * But `SymPy` already have project on this [Cylindrical algebraic decomposition](https://github.com/sympy/sympy/wiki/GSoC-2016-Ideas#cylindrical-algebraic-decomposition) to Provide an interface for solving systems of polynomial inequalities.
 
 * If we want to feature like old `solve` then just need to pass system of inequalities having one variable to solve
-for one variable. After checking this use `reduce_inequalitie(system, symbol)` it will return solution. It is easy to implement. 
+for one variable. After checking this use `reduce_inequalitie(system, symbol)` it will return solution. It is easy to implement.
 
 ### General solution for Trigonometric equations
 
 * PR [#11188](https://github.com/sympy/sympy/pull/11188)
 
-**Problme in old method :**
+**Problems in old method :**
 
 * `_solve_trig` changes the trig equation in `exp` form (it's fine). But then fraction and solving equation
 for it's parts makes more number of `exp`. If we have more number of `exp` then we get more number of `imageset`,
@@ -75,3 +75,9 @@ its principle vales.
 
 * In this PR `solveset_real(tan(x), x)` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)`
 but I want `imageset(Lambda(n, n*pi), S.Integers)`.
+
+**Issues :**
+
+* Meanwhile I found a issue in `solveset`. [issues/11194](https://github.com/sympy/sympy/issues/11194).
+`2*sin(x) - 2*sqrt(3)\*cos(x) - sqrt(3)\*tan(x) +3 = 0` can be easily solved if we factorize it correctly. But I haven't found
+a good way to get its factor. I tried `factor`, `expand(Trig + True)` , `expand_trig`, `rewrite(sin)`.
