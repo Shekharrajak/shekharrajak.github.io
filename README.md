@@ -11,4 +11,6 @@
 * This is partially created many things need to modify. specially `_config.yml`
 and `_layout` folder.
 
+* The site is fully mobile responsive. You will enjoy it's view in mobile :) 
+
 If you want to add something new in this repo, your PR is welcome.
