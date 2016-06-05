@@ -8,7 +8,7 @@ type: post
 
 ### System of Inequalities
 
-* Right now solve uses reduce_inequalities to solve system of equations. But it is not designed for more than one variable.
+* Right now solve uses `reduce_inequalitie`s to solve system of equations. But it is not designed for more than one variable.
 
 * ex: system = `[2*x - 3*y <= 12, x+5*y <=20, x>0] symbols = [x,y])  `
 you will get :  
@@ -18,6 +18,9 @@ We know answer is `[0 < x <120/13 and 2(x-6)/3 <= y <= (20-x)/5]`
 `[x = 120/13 and y = 28/13]`
 
 * But `SymPy` already have project on this [Cylindrical algebraic decomposition](https://github.com/sympy/sympy/wiki/GSoC-2016-Ideas#cylindrical-algebraic-decomposition) to Provide an interface for solving systems of polynomial inequalities.
+
+* If we want to feature like old `solve` then just need to pass system of inequalities having one variable to solve
+for one variable. After checking this use `reduce_inequalitie(system, symbol)` it will return solution. It is easy to implement. 
 
 ### General solution for Trigonometric equations
 
