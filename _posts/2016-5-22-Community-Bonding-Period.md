@@ -129,7 +129,7 @@ If we are solving `a + 1/d` for `d` then `solveset` will return` FiniteSet(-1/a)
 
 **What I think :** For complex/real solution we will get next solution( after substituting that solution). Need to check complex solution if no real solution from `solveset` (inside substitution method)
 
-**I continued the work and next week I tried to fix these problems and almost succeed.My further work on `nlinsolve` is [here](http://shekharrajakgithub.io/Coding-Period-Week-1/)**
+**I continued the work and next week I tried to fix these problems and almost succeed.My further work on `nlinsolve` is [here](http://shekharrajak.github.io/Coding-Period-Week-1/)**
 
 ## Solveset for non symbol
 
