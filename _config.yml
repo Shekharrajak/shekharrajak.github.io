@@ -44,7 +44,10 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url: http://shekharrajak.github.io/
 
-email: shekharrajak@live.com
+author:
+  name: Shekhar Prasad Rajak
+  url: http://shekharrajak.github.io
+  email: shekharrajak@live.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
