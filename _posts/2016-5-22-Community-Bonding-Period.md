@@ -1,14 +1,18 @@
 ---
 layout: post
 title: Community Bonding Period
-week: Community Bonding Period( 23 April 2016 - 30 April 2016)
+week:  23 April 2016 - 22 May 2016
 posted_on: 22 May 2016
 type: post
 ---
 
-# Week 1 ( 23 April 2016 - 30 April 2016)
 
-## Excited about my GSoC Blog
+
+<br><br>
+
+## Week 1 ( 23 April 2016 - 30 April 2016)
+
+### Excited about my GSoC Blog
 
 
 I created my blog on around Nov-Dec 2015, mostly for GSoC ( confident :p ). But the template was still on github with random contents. [Blog repo](http://github.com/shekharrajak/MyBlog)
