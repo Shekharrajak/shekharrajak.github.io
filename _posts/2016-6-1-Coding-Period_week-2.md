@@ -71,13 +71,11 @@ its principle vales.
 
 **Problems :**
 
-* solveset(sin(x)-y, x ) doesn't work right now. But we know we can get solution using invert_real.
-
 * In this PR `solveset_real(tan(x), x)` returns `imageset(Lambda(n, pi*(n - 1)), S.Integers)`
 but I want `imageset(Lambda(n, n*pi), S.Integers)`.
 
 **Issues :**
 
 * Meanwhile I found a issue in `solveset`. [issues/11194](https://github.com/sympy/sympy/issues/11194).
-`2*sin(x) - 2*sqrt(3)\*cos(x) - sqrt(3)\*tan(x) +3 = 0` can be easily solved if we factorize it correctly. But I haven't found
+`2*sin(x) - 2*sqrt(3)*cos(x) - sqrt(3)*tan(x) +3 = 0` can be easily solved if we factorize it correctly. But I haven't found
 a good way to get its factor. I tried `factor`, `expand(Trig + True)` , `expand_trig`, `rewrite(sin)`.
