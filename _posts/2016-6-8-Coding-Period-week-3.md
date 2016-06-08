@@ -33,6 +33,9 @@ in the method.
 **Meanwhile :**
 
 * After working on blog for 1 week created my own blog template powered by Jekyll. and shifted the old blog into github.
+PR for the blog link update in planet: [pull/42](https://github.com/sympy/planet-sympy/pull/42)
+
+* I edited my old template to make it mobile responsive. Now it works perfectly for mobile. [shekharrajak.github.io](http://shekharrajak.github.io/)
 
 * Found a issue in `factor_list`. [issues/11198](https://github.com/sympy/sympy/issues/11198) , When I passed
 `f = sqrt(2)*sin(x) -1` into `solveset` I got this problem.
