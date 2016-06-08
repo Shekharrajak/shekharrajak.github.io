@@ -23,7 +23,7 @@ On 23 April 2016 00:30 (IST) GSoC projects are announced, next day in the evenin
 
 In this week I had Lab exams and Minor tests also. I had some chat/Email with the mentors about the project as well.
 
-# Week 2, 3 ( 1 May 2016 - 14 May 2016)
+## Week 2, 3 ( 1 May 2016 - 14 May 2016)
 
 It was End Examination time ( 5 - 12 May). In this period I tried to be active in gitter chat and Mailing list. I worked on my previously opened PRs and new issues.
 
@@ -35,7 +35,7 @@ We had first hangout on 2 May 2016 , in which [Kshitij](https://github.com/kshit
 
 Minutes of meeting is in Wiki page [GSoC-2016-Solvers-Progress#meeting-01](https://github.com/sympy/sympy/wiki/GSoC-2016-Solvers-Progress#meeting-01)
 
-# Week 4, 5 ( 15 May 2016 - 23 May 2016)
+## Week 4, 5 ( 15 May 2016 - 23 May 2016)
 
 After the End semester examination, we had 2nd meeting on [15 May 2016](https://github.com/sympy/sympy/wiki/GSoC-2016-Solvers-Progress#meeting-02). We ( [Harsh](https://github.com/hargup), [Amit](https://github.com/aktech), [kshitij](https://github.com/kshitij10496) and [me](https://github.com/shekharrajak)) discussed about what should be done before coming on meeting and documenting ideas/mplementation on blog or somewhere.
 
