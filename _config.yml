@@ -8,9 +8,9 @@ name: Shekhar Prasad Rajak
 # Short bio or description (displayed in the header)
 description: Web and Software Developer
 
-title: GSoC 2016
+title: Shekhar Prasad Rajak
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar:
+avatar: {{ site.baseurl }}/images/img/spr.png
 
 #
 # Flags below are optional
