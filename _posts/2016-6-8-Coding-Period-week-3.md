@@ -30,6 +30,11 @@ in the method.
 
 * I added the `factor_list` and solving each factors and union the solution.
 
+* When I analyzed how `exp` form is solved and found correct order to use `factor` or `factor_list` ,the summery
+is in this [gist](https://gist.github.com/Shekharrajak/17fdcd2320f572fc9fc8674823137e20)
+
+<script src="https://gist.github.com/Shekharrajak/17fdcd2320f572fc9fc8674823137e20.js"></script>
+
 **Meanwhile :**
 
 * After working on blog for 1 week created my own blog template powered by Jekyll. and shifted the old blog into github.
