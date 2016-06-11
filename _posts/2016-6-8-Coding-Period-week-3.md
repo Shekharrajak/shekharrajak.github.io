@@ -8,6 +8,10 @@ type: post
 
 ### Continue: Simplified solution for Trigonometric Equation:
 
+
+PR [#11188](https://github.com/sympy/sympy/pull/11188)
+
+
 **New Problems :**
 
 * When I tried more testcases having sqrt and other types I found new issues on `reduce_imageset` method. Some of the Simplified
@@ -34,6 +38,27 @@ in the method.
 is in this [gist](https://gist.github.com/Shekharrajak/17fdcd2320f572fc9fc8674823137e20)
 
 <script src="https://gist.github.com/Shekharrajak/17fdcd2320f572fc9fc8674823137e20.js"></script>
+
+* I implemented the above order and shifted the `reduce_imageset` method in `_union` for `ImageSet`.
+I created `_union_simiplify` a helper method for `_union` .
+
+**`_union_simplify` better than my previous implementation :**
+
+* Previous implementation was returning solution in simplified `ImageSet`, although it passed the all
+test-case except 2-3 cases. But these 2-3 test-cases taught me you are doing over simplification.
+So now I understood that we should not simplify the `ImageSet(s)` of the one factor solution, it may get simplified
+with other factor solution ImageSet(s).
+
+* Simplify them if there is difference of `pi`, that means club [(2*n + 1) and (2*n) => (n*pi)] or [(2*n* + 1)
+and (2*n*pi + 2) => (n*pi)].
+
+
+**So now _solve_trig uses factor_list for trig eq and then solve each factor F_i. To solve each factor F_i first do
+F_i.rewrite(exp) and get this exp form factors F_ij so now the unnecessary exp will come out that dont contribute in
+final solution. That's why we get simplified `ImageSet` that will be Union with previous solution. Inside the
+Union => _union => _union_simplify checks for simplification with already present `ImageSet`. This is the process
+till last factor F_i.**
+
 
 **Meanwhile :**
 
