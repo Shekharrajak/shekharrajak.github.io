@@ -26,6 +26,9 @@ for one variable. After checking this use `reduce_inequalitie(system, symbol)` i
 
 * PR [#11188](https://github.com/sympy/sympy/pull/11188)
 
+* Previous work in this problem : [#10898](https://github.com/sympy/sympy/pull/10898),
+[#10713](https://github.com/sympy/sympy/pull/10713), [#10733](https://github.com/sympy/sympy/pull/10733)
+
 **Problems in old method :**
 
 * `_solve_trig` changes the trig equation in `exp` form (it's fine). But then fraction and solving equation
