@@ -8,7 +8,7 @@ type: post
 
 #### `Solveset` when `domain = S.Integers`
 
-PR [#](https://github.com/sympy/sympy/pull/11234)
+PR [#11234](https://github.com/sympy/sympy/pull/11234)
 
 Right now we may not get our solution in Integer domain but we can use concept of diophantine equations in `solveset`.
 When I messaged about this in giiter channel Aaron told about the `diophantine`, already defined in solvers/diophantine.py.
