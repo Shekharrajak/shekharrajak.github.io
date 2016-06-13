@@ -41,3 +41,5 @@ In [ ]: diophantine((x+y)**2 - x**3 + y**3)
 NotImplementedError: No solver has been written for cubic_thue.
 
 ```
+
+**continue..**
