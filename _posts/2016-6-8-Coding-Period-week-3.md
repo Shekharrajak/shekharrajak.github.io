@@ -71,6 +71,3 @@ PR for the blog link update in planet: [pull/42](https://github.com/sympy/planet
 `f = sqrt(2)*sin(x) -1` into `solveset` I got this problem.
 
 * To solve `factor_list` issue I opened a PR [pull/11201](https://github.com/sympy/sympy/pull/11201).
-
-**continue...**
-**Trying to improve reduce_imageset method**
