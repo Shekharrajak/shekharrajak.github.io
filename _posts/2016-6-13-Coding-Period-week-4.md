@@ -35,6 +35,8 @@ PR [#10994](https://github.com/sympy/sympy/pull/10994)
 
 * Opened an issue [#11236](https://github.com/sympy/sympy/issues/11236).
 
+* PR [#11239](https://github.com/sympy/sympy/pull/11239) for the issue
+
 * I found that right now `diophantine` can't handle these types of equations :
 
 ```
