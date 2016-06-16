@@ -40,8 +40,6 @@ In [ ]: solveset((2*cos(x)+1)/(2*cos(x)-1) > 0, x, S.Reals)
 Out[ ]:
 (-oo, pi/3) \ ImageSet(Lambda(_n, 2*_n*pi + 5*pi/3), Integers()) U ImageSet(Lambda(_n, 2*_n*pi + pi/3), Integers()) U (2*pi/3, 4*pi/3) \ ImageSet(Lambda(_n, 2*_n*pi + 5*pi/3), Integers()) U ImageSet(Lambda(_n, 2*_n*pi + pi/3), Integers())
 
-
-
 ```
 
 solution expected is :
@@ -49,7 +47,6 @@ solution expected is :
 `(1/3)*(3*pi*n - pi) < x < (1/3)*(3*pi*n +pi), n element in Z`
 
 I am working on this right now.
-
 
 **Meanwhile**
 
