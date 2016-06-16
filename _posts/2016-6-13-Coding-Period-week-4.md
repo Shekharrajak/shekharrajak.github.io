@@ -38,9 +38,9 @@ PR [#10994](https://github.com/sympy/sympy/pull/10994)
 ```
 In [ ]: solveset((2*cos(x)+1)/(2*cos(x)-1) > 0, x, S.Reals)
 Out[ ]:
-⎛⎛    π⎞   ⎛⎧        5⋅π        ⎫   ⎧        π        ⎫⎞⎞   ⎛⎛2⋅π  4⋅π⎞   ⎛⎧        5⋅π        ⎫   ⎧        π        ⎫⎞⎞
-⎜⎜-∞, ─⎟ \ ⎜⎨2⋅n⋅π + ─── | n ∊ ℤ⎬ ∪ ⎨2⋅n⋅π + ─ | n ∊ ℤ⎬⎟⎟ ∪ ⎜⎜───, ───⎟ \ ⎜⎨2⋅n⋅π + ─── | n ∊ ℤ⎬ ∪ ⎨2⋅n⋅π + ─ | n ∊ ℤ⎬⎟⎟
-⎝⎝    3⎠   ⎝⎩         3         ⎭   ⎩        3        ⎭⎠⎠   ⎝⎝ 3    3 ⎠   ⎝⎩         3         ⎭   ⎩        3        ⎭⎠⎠
+(-oo, pi/3) \ ImageSet(Lambda(_n, 2*_n*pi + 5*pi/3), Integers()) U ImageSet(Lambda(_n, 2*_n*pi + pi/3), Integers()) U (2*pi/3, 4*pi/3) \ ImageSet(Lambda(_n, 2*_n*pi + 5*pi/3), Integers()) U ImageSet(Lambda(_n, 2*_n*pi + pi/3), Integers())
+
+
 
 ```
 
