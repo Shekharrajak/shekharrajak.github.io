@@ -27,9 +27,29 @@ for which integer solutions are sought.
 
 * More about diophantine equation [mathworld.wolfram](http://mathworld.wolfram.com/DiophantineEquation.html)
 
-**Previous work :**
+**Previous work on this :**
 
 PR [#10994](https://github.com/sympy/sympy/pull/10994)
+
+**solveset_univariate_trig_ineq :***
+
+* Problem in current branch:
+
+```
+In [ ]: solveset((2*cos(x)+1)/(2*cos(x)-1) > 0, x, S.Reals)
+Out[ ]:
+⎛⎛    π⎞   ⎛⎧        5⋅π        ⎫   ⎧        π        ⎫⎞⎞   ⎛⎛2⋅π  4⋅π⎞   ⎛⎧        5⋅π        ⎫   ⎧        π        ⎫⎞⎞
+⎜⎜-∞, ─⎟ \ ⎜⎨2⋅n⋅π + ─── | n ∊ ℤ⎬ ∪ ⎨2⋅n⋅π + ─ | n ∊ ℤ⎬⎟⎟ ∪ ⎜⎜───, ───⎟ \ ⎜⎨2⋅n⋅π + ─── | n ∊ ℤ⎬ ∪ ⎨2⋅n⋅π + ─ | n ∊ ℤ⎬⎟⎟
+⎝⎝    3⎠   ⎝⎩         3         ⎭   ⎩        3        ⎭⎠⎠   ⎝⎝ 3    3 ⎠   ⎝⎩         3         ⎭   ⎩        3        ⎭⎠⎠
+
+```
+
+solution expected is :
+
+`(1/3)*(3*pi*n - pi) < x < (1/3)*(3*pi*n +pi), n element in Z`
+
+I am working on this right now.
+
 
 **Meanwhile**
 
