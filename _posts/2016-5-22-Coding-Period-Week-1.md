@@ -14,17 +14,21 @@ type: post
 **How it is better than old solver _solve_system :**
 
 * **Positive dimensional system solver :** `nlinsolve` can return solution for positive dimensional system.
-**How :** After reading articles on positive dimensional system and analyzing elimination method. I found that if we know Groebner Basis of the positive dimensional system (calling it as basis) then we can start solving equation(having least number of variable first in the basis) using `solveset` and substituting that solved solutions into other equation to get solution in terms of minimum variables.
+
+**How :** After reading articles on positive dimensional system and analyzing elimination method. I found that if we know Groebner Basis of the positive dimensional system (calling it as basis) then we can start solving equation(having least number of variable first in the basis) using `solveset` and substituting that solved solutions into other equation (of basis)to get solution in terms of minimum variables.
 Here the important thing is how we are substituting the known values and in which equations.
 
 * **Complex solution in general form :** `nlinsolve` can return solution in general form .
+
 **How :** If all the equations are not [polynomial equations](http://www.mathwarehouse.com/algebra/polynomial/polynomial-equation.php) means after solving Polynomial equations using `solve_poly_system` go to substitution method (defined in solveset) with this solution and solve for unsolved variables. In between to solve for particular variable `solveset` is used. When it find real solution then further steps will be using this real solution. If no real solution then it go for complex solution if it is found then extract the expression from the `imageset` and use it for further substitution. When solution is valid then add this general solution (solution in imageset) in the final result.
 
 * **Complements will be added if any :** `nlinsolve` maintains `dict` to add complements for variables if any.
+
 **How :** When there is infinite solution and `solveset` found complements during substitution method.
 For example : solution = `{a : 1/d, b : -d, c : -1/d, d : d}` then in complements `dict {d : 0}` will be maintained and the final solution `{a : 1/d, b : -d, c : -1/d, d : {d} \ {0}}` is returned.
 
 * **Unknowingly added features :** `nlinsolve` can return solution for positive dimensional linear system and simple linear system. But I recommend to use it for linear systems, since `linsolve` can do far better than `nlinsolve` for linear system.
+
 **How :** Since it is using Groebner basis (inside `solve_poly_system`) of the system for polynomial equations. If it fails for some equation then basis is used in substitution method. So it can solve positive dimensional linear system.
 
 ----------------------------------------------------------------------
