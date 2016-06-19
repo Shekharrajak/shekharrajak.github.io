@@ -31,8 +31,11 @@ for which integer solutions are sought.
 
 PR [#10994](https://github.com/sympy/sympy/pull/10994)
 
+-------------------------------------------------------------------------------------------------------------
+
 **solveset_univariate_trig_ineq :***
 
+PR [#11257](https://github.com/sympy/sympy/pull/11257)
 * Problem in current branch:
 
 ```
@@ -46,10 +49,45 @@ solution expected is :
 
 `(1/3)*(3*pi*n - pi) < x < (1/3)*(3*pi*n +pi), n element in Z`
 
-I am working on this right now.
+I am working on this and have opened PR [#11257](https://github.com/sympy/sympy/pull/11257) but it is failing some cases.
+I am trying to improve it. It is inspired from previous `solve_univariate_inequality` but it seems need changes for trig ineq.
 
+Main intention is to get extended solution for Trigonometric inequality.
 
-**Continue- nonlinsolve :***
+eg.
+
+```
+In [2]: solveset((2*cos(x)+1)/(2*cos(x)-1) > 0, x, S.Reals)
+Out[2]:
+⎡⎧      π        ⎫  ⎧      π        ⎫⎤
+⎢⎨n⋅π - ─ | n ∊ ℤ⎬, ⎨n⋅π + ─ | n ∊ ℤ⎬⎥
+⎣⎩      3        ⎭  ⎩      3        ⎭⎦
+
+n [4]: solveset(sin(x) > 1/sqrt(2), x, S.Reals)
+Out[4]:
+⎛⎧        π        ⎫  ⎧        3⋅π        ⎫⎞
+⎜⎨2⋅n⋅π + ─ | n ∊ ℤ⎬, ⎨2⋅n⋅π + ─── | n ∊ ℤ⎬⎟
+⎝⎩        4        ⎭  ⎩         4         ⎭⎠
+
+In [15]: solveset(2*cos(x) + sqrt(3) < 0, x, S.Reals)
+Out[15]:
+⎛⎧        5⋅π        ⎫  ⎧        7⋅π        ⎫⎞
+⎜⎨2⋅n⋅π + ─── | n ∊ ℤ⎬, ⎨2⋅n⋅π + ─── | n ∊ ℤ⎬⎟
+⎝⎩         6         ⎭  ⎩         6         ⎭⎠
+
+In [16]: solveset_univariate_trig_inequality(tan(x) > 0, x)
+Out[16]:
+⎛               ⎧      π        ⎫⎞
+⎜{n⋅π | n ∊ ℤ}, ⎨n⋅π + ─ | n ∊ ℤ⎬⎟
+⎝               ⎩      2        ⎭⎠
+```
+
+* Still need some good idea to improve the PR [#11257](https://github.com/sympy/sympy/pull/11257).
+**will continue ...**
+
+--------------------------------------------------------------------------------------------------------------
+
+**Continue- nonlinsolve :**
 
 PR [#11111](https://github.com/sympy/sympy/pull/11111)
 
