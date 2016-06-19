@@ -48,6 +48,22 @@ solution expected is :
 
 I am working on this right now.
 
+
+**Continue- nonlinsolve :***
+
+PR [#11111](https://github.com/sympy/sympy/pull/11111)
+
+* After Amit's review and comments, I improved the `docstring`, improved the `complements` and `intersection` `if` block
+present in `substitution` function.
+
+* The main thing I added is : now `substitution` method will return both `Real` and `Complex` solution. That mean now
+it is using `solveset_real` and `solveset_complex`. Previously it uses `solveset_complex` when there is `S.EmpltySet`
+from `solveset_real`.
+
+* Since both `solveset_real` and `solveset_complex` solution need similar steps. So I am using `_solve_using_know_values` function
+a helper for `substitution` method, where `solver` parameter can be `solveset_real` or `solveset_complex`. Another parameter is
+`result` which is list of dict <known_symbol: it's value> (already solved symbol, mostly from `nonlinsolve/_solve_poly_system`).
+
 **Meanwhile**
 
 * Opened an issue [#11236](https://github.com/sympy/sympy/issues/11236).
