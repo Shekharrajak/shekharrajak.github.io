@@ -57,5 +57,8 @@ Out[2]: ℝ ∩ {x}
 So I am not able to extract the `-x` here. Because of this `nonlinsolve` returning some extra soln.
 One case is in test file : `test_issue_5132`.
 
+I opened a PR for this [#11280](https://github.com/sympy/sympy/pull/11280)
 
 --------------------------------------------------------------------------------
+
+**continue..**
