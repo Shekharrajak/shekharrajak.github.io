@@ -59,6 +59,9 @@ One case is in test file : `test_issue_5132`.
 
 I opened a PR for this [#11280](https://github.com/sympy/sympy/pull/11280)
 
+* If someone wants to see the changes I did in `nonlinsolve` then check these gist [nonlinsolve_till_24june_2016](https://gist.github.com/Shekharrajak/5e77fe344c996c17c177985853884985),
+[nonlinsolve_till_21jun2016.py](https://gist.github.com/Shekharrajak/5d285ce0cf113cfc217c3e33c3ca04c0).
+
 --------------------------------------------------------------------------------
 
 **continue..**
