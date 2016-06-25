@@ -62,6 +62,20 @@ I opened a PR for this [#11280](https://github.com/sympy/sympy/pull/11280)
 * If someone wants to see the changes I did in `nonlinsolve` then check these gist [nonlinsolve_till_24june_2016](https://gist.github.com/Shekharrajak/5e77fe344c996c17c177985853884985),
 [nonlinsolve_till_21jun2016.py](https://gist.github.com/Shekharrajak/5d285ce0cf113cfc217c3e33c3ca04c0).
 
+**previous PRs update :**
+
+* [#11188](https://github.com/sympy/sympy/pull/11188) - Simplified Solution for Trigonometric equation :
+ I did some minor changes.Now I hope it is good to go.
+
+* [#11234](https://github.com/sympy/sympy/pull/11234) - Connecting Diophantine and solveset to get Integer solution:
+added some testcases. I have defined `solveset_integers` for this, it take take list of symbols(to get soln in that order).t
+But Currently solveset takes one symbol. I hope this PR is good to go.
+
+* [11257](https://github.com/sympy/sympy/pull/11257) - solveset univariate trig inequality solvers : Actually to simplify the
+soln I need to use PR [#11188](https://github.com/sympy/sympy/pull/11188), so if it got merged that code will help me in this PR.
+
+
+
 --------------------------------------------------------------------------------
 
 **continue..**
