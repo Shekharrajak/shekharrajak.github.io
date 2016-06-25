@@ -75,7 +75,11 @@ But Currently solveset takes one symbol. I hope this PR is good to go.
 soln I need to use PR [#11188](https://github.com/sympy/sympy/pull/11188), so if it got merged that code will help me in this PR.
 
 
-
 --------------------------------------------------------------------------------
 
+**Meanwhile :**
+
+* I worked on these previous PRs regarding issues I reported [#11239](https://github.com/sympy/sympy/pull/11239), [11280](https://github.com/sympy/sympy/pull/11280).
+
+--------------------------------------------------------------------------------
 **continue..**
