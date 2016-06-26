@@ -11,8 +11,8 @@ type: post
 
 PR [#11111](https://github.com/sympy/sympy/pull/11111)
 
-* I found the case where complex solution may be missed. When `solve_poly_system` is solving polynomial equation and that result is used
-in solving non polynomial-equation. May be `solve_poly_system` returned only real solution( so complex solution is not be used for further steps) so further step is with this real solution.
+* I found the case where complex solution is missed. When `solve_poly_system` is solving polynomial equation and that result is used
+in solving non polynomial-equation to get other soln. May be `solve_poly_system` return only real solution( so complex solution is not being used for further steps) thats why further step is with this real solution.
 
 * It seems `solve_poly_system` is doing it's job since it is not designed for all solution. But we have `substitution` method using
 `solveset_real` and `solveset_complex` and retuning all solutionn. In new commits I improved the code and now `substitution` method can solve all kind of system independently.
