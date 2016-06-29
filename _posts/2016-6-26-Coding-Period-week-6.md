@@ -76,6 +76,13 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
         ```
     so we should check even powers and permute sign.
 
+    other examples :
+
+    ```
+    >>> diop_general_sum_of_squares(a**2 + b**2 + c**2 + d**2 + e**2 - 2345)
+    set([(15, 22, 22, 24, 24)])
+    
+
     4. `classify_diop` can returns these `diop_type` :
 
         - linear
