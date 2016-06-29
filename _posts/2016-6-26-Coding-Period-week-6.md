@@ -57,12 +57,14 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
     E.g.
 
-    ```
-        >>> from sympy.utilities.iterables import permute_signs
-        >>> list(permute_signs((1, 12)))
-        [(1, 12), (-1, 12), (1, -12), (-1, -12)]
+        ```
+            >>> from sympy.utilities.iterables import permute_signs
+            >>> list(permute_signs((1, 12)))
+            [(1, 12), (-1, 12), (1, -12), (-1, -12)]
 
-    ```
+        ```
+
+    In general if variables have even powers then we should do `permute_signs`.
 
     4. `classify_diop` can returns these `diop_type` :
 
