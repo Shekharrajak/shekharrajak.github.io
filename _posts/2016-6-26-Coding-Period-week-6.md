@@ -51,7 +51,7 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
     `x_{1}^2 + x_{2}^2 + \ldots + x_{n}^2 = k`
 
-    2. If I am correct then `Diophantine` returns all the soln if eq is Linear Diophantine equations, General binary quadratic equation and Homogeneous ternary quadratic equation. I tried some Linear Diophantine equations and cross checked with online Diophantine solvers.
+    2. If I am correct then `Diophantine` returns all the soln if eq is Linear Diophantine equations, General binary quadratic equation and Homogeneous ternary quadratic equation. I tried some Linear Diophantine equations and cross checked with online Diophantine solvers(one of the solver is [here](http://www.numbertheory.org/php/main_pell.html)).
 
     3. In last 2 (Extended Pythagorean equation and General sum of squares) we need to do `permute_signs` to get all the soln.
 
