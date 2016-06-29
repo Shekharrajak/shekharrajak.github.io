@@ -64,7 +64,16 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
         ```
 
-    In general if variables have even powers then we should do `permute_signs`.
+    In general if variables have even powers then we should do `permute_signs`. `Diophantine` solves the factors of the eq
+    so if we have
+
+        ```
+          >>> from sympy.solvers.diophantine import diophantine
+          >>> from sympy.abc import x, y, z
+          >>> diophantine(x**2 - y**2)
+          set([(-t_0, -t_0), (t_0, -t_0)])
+
+        ```
 
     4. `classify_diop` can returns these `diop_type` :
 
