@@ -28,7 +28,7 @@ make all solution (e.g. if just need to permute sign in values then use `permute
 
 * After reading the [diophantine Documentation](http://docs.sympy.org/dev/modules/solvers/diophantine.html) and `diophantine` doctests and examples, I found that :
 
-1.Currently, following five types of Diophantine equations can be solved using `~sympy.solvers.diophantine.diophantine` and other helper functions of the Diophantine module.
+1. Currently, following five types of Diophantine equations can be solved using `~sympy.solvers.diophantine.diophantine` and other helper functions of the Diophantine module.
 
 
 - Linear Diophantine equations:
@@ -51,7 +51,9 @@ make all solution (e.g. if just need to permute sign in values then use `permute
 
 `x_{1}^2 + x_{2}^2 + \ldots + x_{n}^2 = k`
 
-2. In last 2 (Extended Pythagorean equation and General sum of squares) we need to do `permute_signs` to get all the soln.
+2. If I am correct then `Diophantine` returns all the soln if eq is Linear Diophantine equations, General binary quadratic equation and Homogeneous ternary quadratic equation. I tried some Linear Diophantine equations and cross checked with online Diophantine solvers.
+
+3. In last 2 (Extended Pythagorean equation and General sum of squares) we need to do `permute_signs` to get all the soln.
 
 E.g.
 
@@ -61,5 +63,11 @@ E.g.
     [(1, 12), (-1, 12), (1, -12), (-1, -12)]
 
 ```
+
+4. If the equation type is not any of these then `solveset_integers` should returns `ConditionSet`.
+
+5. 
+--------------------------------------------------------------------------------
+
 
 **continue...**
