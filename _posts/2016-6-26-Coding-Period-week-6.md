@@ -51,5 +51,15 @@ make all solution (e.g. if just need to permute sign in values then use `permute
 
 `x_{1}^2 + x_{2}^2 + \ldots + x_{n}^2 = k`
 
+2. In last 2 (Extended Pythagorean equation and General sum of squares) we need to do `permute_signs` to get all the soln.
+
+E.g.
+
+```
+    >>> from sympy.utilities.iterables import permute_signs
+    >>> list(permute_signs((1, 12)))
+    [(1, 12), (-1, 12), (1, -12), (-1, -12)]
+
+```
 
 **continue...**
