@@ -81,23 +81,35 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
     ```
     >>> diop_general_sum_of_squares(a**2 + b**2 + c**2 + d**2 + e**2 - 2345)
     set([(15, 22, 22, 24, 24)])
-    
+
+    >>> from sympy.solvers.diophantine import diop_general_pythagorean
+    >>> from sympy.abc import a, b, c, d, e
+    >>> diop_general_pythagorean(a**2 + b**2 + c**2 - d**2)
+    (m1**2 + m2**2 - m3**2, 2*m1*m3, 2*m2*m3, m1**2 + m2**2 + m3**2)
+    >>> diop_general_pythagorean(9*a**2 - 4*b**2 + 16*c**2 + 25*d**2 + e**2)
+    (10*m1**2  + 10*m2**2  + 10*m3**2 - 10*m4**2, 15*m1**2  + 15*m2**2  + 15*m3**2  + 15*m4**2, 15*m1*m4, 12*m2*m4, 60*m3*m4)
+
+    >>> diop_general_sum_of_even_powers(a**4 + b**4 - (2**4 + 3**4))
+    set([(2, 3)])
+
+    ```
+    In above these types of cases we need `permute_signs`.
 
     4. `classify_diop` can returns these `diop_type` :
 
         - linear
         - univariate
-        - binary_quadratic -> permute sign
+        - binary_quadratic
         - inhomogeneous_ternary_quadratic
         - homogeneous_ternary_quadratic_normal
         - homogeneous_ternary_quadratic
         - inhomogeneous_general_quadratic
         - inhomogeneous_general_quadratic
         - homogeneous_general_quadratic
-        - general_sum_of_squares ->permute sign
+        - general_sum_of_squares
         - general_pythagorean
         - cubic_thue
-        - general_sum_of_even_powers ->permute sign
+        - general_sum_of_even_powers
 
      If the equation type is none of these then `solveset_integers` should returns `ConditionSet`.Because currently `diophantine`
      can handle these kinds of eq only.
