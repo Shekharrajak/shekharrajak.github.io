@@ -64,9 +64,25 @@ E.g.
 
 ```
 
-4. If the equation type is not any of these then `solveset_integers` should returns `ConditionSet`.
+4. `classify_diop` can returns these `diop_type` :
 
-5. 
+- linear
+- univariate
+- binary_quadratic -> permute sign
+- inhomogeneous_ternary_quadratic
+- homogeneous_ternary_quadratic_normal
+- homogeneous_ternary_quadratic
+- inhomogeneous_general_quadratic
+- inhomogeneous_general_quadratic
+- homogeneous_general_quadratic
+- general_sum_of_squares ->permute sign
+- general_pythagorean
+- cubic_thue
+- general_sum_of_even_powers ->permute sign
+
+ If the equation type is none of these then `solveset_integers` should returns `ConditionSet`.Because currently `diophantine`
+ can handle these kinds of eq only
+
 --------------------------------------------------------------------------------
 
 
