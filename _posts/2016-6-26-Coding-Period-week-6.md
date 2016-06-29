@@ -28,8 +28,28 @@ make all solution (e.g. if just need to permute sign in values then use `permute
 
 * After reading the [diophantine Documentation](http://docs.sympy.org/dev/modules/solvers/diophantine.html) and `diophantine` doctests and examples, I found that :
 
-1.
+1.Currently, following five types of Diophantine equations can be solved using `~sympy.solvers.diophantine.diophantine` and other helper functions of the Diophantine module.
 
+
+- Linear Diophantine equations:
+
+`a1*x1 + a2*x2 + ... + an*xn = b`.
+
+- General binary quadratic equation:
+
+ `ax^2 + bxy + cy^2 + dx + ey + f = 0`
+
+- Homogeneous ternary quadratic equation:
+
+`ax^2 + by^2 + cz^2 + dxy + eyz + fzx = 0`
+
+- Extended Pythagorean equation:
+
+`a_{1} * x_{1}^2 + a_{2} * x_{2}^2 + ....  + a_{n} * x_{n}^2 = a_{n+1} * x_{n+1}^2`
+
+- General sum of squares:
+
+`x_{1}^2 + x_{2}^2 + \ldots + x_{n}^2 = k`
 
 
 **continue...**
