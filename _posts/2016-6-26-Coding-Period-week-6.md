@@ -119,7 +119,7 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
     I discussed these things with [@thilinarmtb](https://github.com/thilinarmtb) (He have worked on `diophantine`. Blog link : [https://thilinaatsympy.wordpress.com/](https://thilinaatsympy.wordpress.com/page/2/)). Main points are :
 
-      Only the linear solver is incomplete,the algorithm in Diophantine module should be fixed. We can use `permute_signs` when we have even powers. you can update Diophantine module to use permute sign. But we should not returns `ConditionSet` for linear diophantine eq. For linear diophantine eq `diophantine()`returns parameterized solution which is complete most of the time.
+      Only the linear solver is incomplete, the algorithm in Diophantine module should be fixed (`permute_signs` or something like that won't help). We can use `permute_signs` when we have even powers in all variables. We should update Diophantine module to use permute sign. But we should not returns `ConditionSet` for linear diophantine eq. because for linear diophantine eq `diophantine()`returns parameterized solution which is complete most of the time.
 
     4. `classify_diop` can returns these `diop_type` :
 
