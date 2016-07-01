@@ -101,7 +101,7 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
     ```
 
     In above these types of cases we need `permute_signs`. If we check these solution you can see that `permute_signs`
-    is needed when we solutions is not parameterized.
+    is needed when solutions is not parameterized.
 
     e.g.
 
@@ -117,7 +117,9 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
     solution `set([(-t_0, -t_0), (t_0, -t_0)])` is same as `set([(-t_0, -t_0), (t_0, t_0), (-t_0, t_0), (t_0, -t_0)])`.(because `t_0` can take any integer value.)
 
-    I discussed these things with [@thilinarmtb](https://github.com/thilinarmtb) (He have worked on `diophantine`. Blog link : [https://thilinaatsympy.wordpress.com/](https://thilinaatsympy.wordpress.com/page/2/)). His words are "only the linear solver is incomplete, Rather the algorithm in Diophantine module should be fixed. We can use `permute_signs` when we have even powers. you can update Diophantine module to use permute sign".
+    I discussed these things with [@thilinarmtb](https://github.com/thilinarmtb) (He have worked on `diophantine`. Blog link : [https://thilinaatsympy.wordpress.com/](https://thilinaatsympy.wordpress.com/page/2/)). Main points are :
+
+      Only the linear solver is incomplete,the algorithm in Diophantine module should be fixed. We can use `permute_signs` when we have even powers. you can update Diophantine module to use permute sign. But we should not returns `ConditionSet` for linear diophantine eq. For linear diophantine eq `diophantine()`returns parameterized solution which is complete most of the time.
 
     4. `classify_diop` can returns these `diop_type` :
 
