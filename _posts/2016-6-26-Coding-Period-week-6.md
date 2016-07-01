@@ -143,7 +143,8 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
      can handle these kinds of eq only.
 
 
-**PR for diophantine to get some missing solution:** [11334](https://github.com/sympy/sympy/pull/11334)
+* PR Update diophantine to get some missing solution: [11334](https://github.com/sympy/sympy/pull/11334)
+
 --------------------------------------------------------------------------------
 
 **Continue simplified Trigonometric eq solution :**
