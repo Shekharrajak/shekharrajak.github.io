@@ -143,8 +143,12 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
      can handle these kinds of eq only.
 
 
-**PR for diophantine to get some missing solution: ** [11334](https://github.com/sympy/sympy/pull/11334)
+**PR for diophantine to get some missing solution:** [11334](https://github.com/sympy/sympy/pull/11334)
 --------------------------------------------------------------------------------
 
+**Continue simplified Trigonometric eq solution :**
 
+* shifted the `_union_simplify` function code to `_union` in `fancyset/ImageSet` with some changes.
+
+--------------------------------------------------------------------------------
 **continue...**
