@@ -84,6 +84,7 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
     ```
 
+      >>> from sympy.solvers.diophantine import diop_general_sum_of_squares
       >>> diop_general_sum_of_squares(a**2 + b**2 + c**2 + d**2 + e**2 - 2345)
       set([(15, 22, 22, 24, 24)])
 
