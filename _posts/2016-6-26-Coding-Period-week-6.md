@@ -149,7 +149,11 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
 **Continue simplified Trigonometric eq solution :**
 
-* shifted the `_union_simplify` function code to `_union` in `fancyset/ImageSet` with some changes.
+PR [#11188](https://github.com/sympy/sympy/pull/11188)
+
+* Shifted the `_union_simplify` function code to `_union` in `fancyset/ImageSet` with some changes.
+
+* Still facing problem (It sometimes pass all cases sometimes fail).
 
 --------------------------------------------------------------------------------
 **continue...**
