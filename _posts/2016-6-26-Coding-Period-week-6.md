@@ -156,4 +156,11 @@ PR [#11188](https://github.com/sympy/sympy/pull/11188)
 * Still facing problem (It sometimes pass all cases sometimes fail).
 
 --------------------------------------------------------------------------------
+
+**Meanwhile :**
+
+* I found a problem in `checksol` defined in `sympy/solvers/solvers.py` and opened a PR that fixes
+the small issue, [#11339](https://github.com/sympy/sympy/pull/11339)
+
+--------------------------------------------------------------------------------
 **continue...**
