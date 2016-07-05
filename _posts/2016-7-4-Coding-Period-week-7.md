@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coding Period Week 6
+title: Coding Period Week 7
 week: 3 July 2016 -  9 July 2016
 posted_on: 4 July 2016
 type: post
@@ -33,17 +33,19 @@ Using this PR :
 In [1]: img = ImageSet(Lambda((n, m), n**2) , S.Reals)
 
 In [2]: img.put_values({n: 1, m: 2})
-Out[2]: 1
+Out[2]: {1}
 
 In [3]: img = ImageSet(Lambda((n, m), n**2 + m) , S.Reals)
 
 In [4]: img.put_values({n: 1, m: 2})
-Out[4]: 3
+Out[4]: {3}
 
 ```
 
-* I want to use this in PR [#11188](https://github.com/sympy/sympy/pull/11188)
+* I want to use this in PR [#11188](https://github.com/sympy/sympy/pull/11188) and
+[#11257](https://github.com/sympy/sympy/pull/11257)
 
 --------------------------------------------------------------------------------
+
 
 ***continue..***
