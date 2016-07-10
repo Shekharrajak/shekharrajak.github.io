@@ -78,6 +78,8 @@ So first handling the Complements and then intersection will be checked in solve
 * `nonlinsolve` can handle simple trigonometric system of equations but when complex equations
 is used then it will return `ConditionSet` since `solveset` trig solver is not smart enough right now.
 
+* Trying to break the code into the functions to make the code better.
+
 --------------------------------------------------------------------------------
 
 **Continue Simplified Trig soln**
@@ -90,4 +92,5 @@ I am using FiniteSet so I hope it is good way to handle this.) Now it passes all
 
 
 --------------------------------------------------------------------------------
+
 ***continue..***
