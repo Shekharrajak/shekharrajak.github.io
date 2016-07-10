@@ -45,7 +45,7 @@ Out[4]: {3}
 * I want to use this in PR [#11188](https://github.com/sympy/sympy/pull/11188) and
 [#11257](https://github.com/sympy/sympy/pull/11257) -->
 
-**nonlinsolve :**
+**Continue nonlinsolve :**
 
 PR [#11111]((https://github.com/sympy/sympy/pull/11111)
 
@@ -80,5 +80,14 @@ is used then it will return `ConditionSet` since `solveset` trig solver is not s
 
 --------------------------------------------------------------------------------
 
+**Continue Simplified Trig soln**
 
+PR [#11188]((https://github.com/sympy/sympy/pull/11188)
+
+* I was getting problem in ImageSet union when you run test. Sometimes it pass all the cases but not always.
+I found the problem (most probably because order of args in union.reduce is not always same for all the python version
+I am using FiniteSet so I hope it is good way to handle this.) Now it passes all the checks all time.
+
+
+--------------------------------------------------------------------------------
 ***continue..***
