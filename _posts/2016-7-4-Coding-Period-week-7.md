@@ -6,7 +6,7 @@ posted_on: 4 July 2016
 type: post
 ---
 
-**ImageSet.put_values() :**
+<!-- **ImageSet.put_values() :**
 
 PR [#11343](https://github.com/sympy/sympy/pull/11343)
 
@@ -43,7 +43,40 @@ Out[4]: {3}
 ```
 
 * I want to use this in PR [#11188](https://github.com/sympy/sympy/pull/11188) and
-[#11257](https://github.com/sympy/sympy/pull/11257)
+[#11257](https://github.com/sympy/sympy/pull/11257) -->
+
+**nonlinsolve :**
+
+PR [#11111]((https://github.com/sympy/sympy/pull/11111)
+
+* How Intersections and Complements are handled :
+
+see these examples:
+
+```
+In [ ]: intr = Intersection(FiniteSet(x), Interval(1,10))
+
+In [ ]: comp = Complement(FiniteSet(x), Interval(1,10))
+
+In [ ]: intr
+Out[ ]: [1, 10] ∩ {x}
+
+In [ ]: comp
+Out[ ]: {x} \ [1, 10]
+
+In [ ]: type( Intersection(comp, Interval(1,11)))
+Out[ ]: sympy.sets.sets.Complement
+
+In [ ]: type(Complement(intr, Interval(1,2)))
+Out[ ]: sympy.sets.sets.Complement
+
+
+```
+
+So first handling the Complements and then intersection will be checked in solveset soln.
+
+* `nonlinsolve` can handle simple trigonometric system of equations but when complex equations
+is used then it will return `ConditionSet` since `solveset` trig solver is not smart enough right now.
 
 --------------------------------------------------------------------------------
 
