@@ -55,7 +55,7 @@ is used then it will return `ConditionSet` since `solveset` trig solver is not s
 
 **Continue Simplified Trig soln**
 
-PR [#11188]((https://github.com/sympy/sympy/pull/11188)
+PR [#11188](https://github.com/sympy/sympy/pull/11188)
 
 * I was getting problem in ImageSet union when you run test. Sometimes it pass all the cases but not always.
 I found the problem (most probably because order of args in union.reduce is not always same for all the python version
