@@ -93,4 +93,49 @@ I am using FiniteSet so I hope it is good way to handle this.) Now it passes all
 
 --------------------------------------------------------------------------------
 
+**Meanwhile :**
+
+* I found that `Mod` is not defined for complex numbers. e.g.
+
+```
+In [1]: g = Mod(-log(3), 2*I*pi)
+
+In [2]:
+
+In [2]: g
+Out[2]: Mod(-log(3), 2⋅ⅈ⋅π)
+
+In [3]: simplify(g)
+Out[3]: Mod(-log(3), 2⋅ⅈ⋅π)
+
+In [4]: simplify(g)
+Out[4]: Mod(-log(3), 2⋅ⅈ⋅π)
+
+In [5]: g2 = Mod(-log(3), 2*pi)
+
+In [6]: simplify(g2)
+Out[6]: -log(3) + 2⋅π
+
+In [7]: simplify(Mod(I,I))
+Out[7]: 0
+
+In [8]: simplify(Mod(2*I,I))
+Out[8]: 0
+
+In [9]: simplify(Mod(2*I,3*I))
+Out[9]: 5⋅ⅈ
+
+In [10]: simplify(Mod(2*I,1+3*I))
+Out[10]: Mod(2⋅ⅈ, 1 + 3⋅ⅈ)
+
+```
+Need to implement `Mod` for complex number as well. There is concept og Gaussian Integers
+
+Some resources I found is this :
+[Link1](http://math.stackexchange.com/questions/274694/modulo-complex-number), [link2](https://en.wikipedia.org/wiki/Gaussian_integer)
+[link3](http://fermatslasttheorem.blogspot.in/2005/06/division-algorithm-for-gaussian.html)
+
+* Tried to fix the bug of `is_zero_dimensional` in this PR [#11371](https://github.com/sympy/sympy/pull/11371).
+
+--------------------------------------------------------------------------------
 ***continue..***
