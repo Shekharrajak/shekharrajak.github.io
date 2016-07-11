@@ -18,7 +18,7 @@ PR [#11343](https://github.com/sympy/sympy/pull/11343)
 
 **Continue nonlinsolve :**
 
-PR [#11111]((https://github.com/sympy/sympy/pull/11111)
+PR [#11111](https://github.com/sympy/sympy/pull/11111)
 
 * How Intersections and Complements are handled :
 
