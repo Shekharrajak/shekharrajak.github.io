@@ -10,7 +10,7 @@ type: post
 
 PR [#11343](https://github.com/sympy/sympy/pull/11343)
 
-* After the discussion Harsh told that it is better to use like `imageset.lamda(values_for_lambda_var)` directly, also don't make lambda variabels public public and before this check whether values are in ` base_set` or not.
+* After the discussion Harsh told that it is better to use like `imageset.lamda(values_for_lambda_var)` directly, also don't make lambda variables public , it should be local and before doing `imageset.lamda(values_for_lambda_var)` this one need to check whether values are in ` base_set` or not.
 
 * You can see the code here : [gist](https://gist.github.com/Shekharrajak/d70a36c95eefaca5c684497e039c5632)
 
