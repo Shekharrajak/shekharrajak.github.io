@@ -71,8 +71,6 @@ I am using FiniteSet so I hope it is good way to handle this.) Now it passes all
 ```
 In [1]: g = Mod(-log(3), 2*I*pi)
 
-In [2]:
-
 In [2]: g
 Out[2]: Mod(-log(3), 2⋅ⅈ⋅π)
 
@@ -103,8 +101,10 @@ Out[10]: Mod(2⋅ⅈ, 1 + 3⋅ⅈ)
 Need to implement `Mod` for complex number as well. There is concept og Gaussian Integers
 
 Some resources I found is this :
-[Link1](http://math.stackexchange.com/questions/274694/modulo-complex-number), [link2](https://en.wikipedia.org/wiki/Gaussian_integer)
-[link3](http://fermatslasttheorem.blogspot.in/2005/06/division-algorithm-for-gaussian.html)
+[link1](http://math.stackexchange.com/questions/274694/modulo-complex-number),
+[link2](http://www.freemathhelp.com/forum/threads/76383-Modulo-of-complex-numbers),
+[link3](https://en.wikipedia.org/wiki/Gaussian_integer)
+[link4](http://fermatslasttheorem.blogspot.in/2005/06/division-algorithm-for-gaussian.html)
 
 * Tried to fix the bug of `is_zero_dimensional` in this PR [#11371](https://github.com/sympy/sympy/pull/11371).
 
