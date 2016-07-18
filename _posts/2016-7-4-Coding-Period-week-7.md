@@ -106,6 +106,8 @@ Some resources I found is this :
 [link3](https://en.wikipedia.org/wiki/Gaussian_integer)
 [link4](http://fermatslasttheorem.blogspot.in/2005/06/division-algorithm-for-gaussian.html)
 
+* One can see the issue [11391](https://github.com/sympy/sympy/issues/11391) for detail discussion.
+
 * Tried to fix the bug of `is_zero_dimensional` in this PR [#11371](https://github.com/sympy/sympy/pull/11371).
 
 --------------------------------------------------------------------------------
