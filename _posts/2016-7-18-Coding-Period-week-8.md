@@ -35,6 +35,8 @@ PR [#11111](https://github.com/sympy/sympy/pull/11111)
 * It is better to replace trigonometric functions or other `Function` with symbols (e.g. `sin(x)` --> `u`, `sin(y)`--> `v`, `f(x)`--> `f_x`, `g(x)` --> `g_x`) and then solve for the symbols. After getting solution
 from `nonlinsolve` user can invert or do `solveset`(e.g. solveset(Eq(sin(x), soln_u), x, domain) to get value of `x`).
 
+* Ready for review.
+
 --------------------------------------------------------------------------------
 
 **Meanwhile :**
