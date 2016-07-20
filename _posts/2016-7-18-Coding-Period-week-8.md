@@ -11,7 +11,7 @@ type: post
 
 PR [11234](https://github.com/sympy/sympy/pull/11234)
 
-* For general Pythagorean diop_type (Diophantine eq type), it seems diophantine always returns parameterized solution so I did required changes in the PR. [commit](https://github.com/sympy/sympy/pull/11334/commits/6af46fc35db3a74dfda78b6d8e2a0f7d4ec65afe)
+* For general Pythagorean diop_type (Diophantine eq type), it seems diophantine always returns parameterized solution so I did some changes in the PR. [commit](https://github.com/sympy/sympy/pull/11334/commits/6af46fc35db3a74dfda78b6d8e2a0f7d4ec65afe)
 
 * You can refer this [comment](https://github.com/sympy/sympy/pull/11334#issuecomment-230334645).
 
