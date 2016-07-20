@@ -74,7 +74,7 @@ Out[4]:
 In [5]: Intersection(ImageSet(Lambda(n, 2*n*I*pi), S.Integers), S.Complexes)
 Out[5]: {2⋅ⅈ⋅π⋅n | n ∊ ℤ} ∩ ℂ
 
-# ImageSet Intersection is not implemented when inverter returns 2 values.
+# ImageSet Intersection is not implemented when inverter returns multiple values.
 # here ans should be {0, 1}
 In [6]: img1 = ImageSet(Lambda(n, n**2), S.Integers)
 
