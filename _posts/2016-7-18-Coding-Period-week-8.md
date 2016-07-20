@@ -21,7 +21,7 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
 PR [#11188](https://github.com/sympy/sympy/pull/11188)
 
-* After some changes the PR is ready for review.
+* After some changes, the PR is ready for review.
 
 
 --------------------------------------------------------------------------------
@@ -30,10 +30,15 @@ PR [#11188](https://github.com/sympy/sympy/pull/11188)
 
 PR [#11111](https://github.com/sympy/sympy/pull/11111)
 
-* Added some XFAIL test-cases of system of Trigonometric equations, since `solveset` trig solver (`solve_trig`) is not smart enough. Sometimes it return soln in ConditionSet (which can be solved using `_invert` or inverse Trigonometric functions). So `solveset` returns `ConditionSet` that means `substitution` is not getting soln and at the end returns `ConditionSet`.
+* Added some XFAIL test-cases of system of Trigonometric equations, `solveset` trig solver (`solve_trig`) is not smart enough. (`solveset` returns `ConditionSet`, which can be simply inverse trig functions using `_invert` or inverse Trigonometric functions). So `solveset` returns `ConditionSet` that means `substitution` is not getting soln.
 
-* It is better to replace trigonometric functions or other `Function` with symbols (e.g. `sin(x)` --> `u`, `sin(y)`--> `v`, `f(x)`--> `f_x`, `g(x)` --> `g_x`) and then solve for the symbols. After getting solution
-from `nonlinsolve` user can invert or do `solveset`(e.g. solveset(Eq(sin(x), soln_u), x, domain) to get value of `x`).
+* It is better to replace trigonometric functions or other `Function` with symbols
+
+(e.g. `sin(x)` --> `u`, `sin(y)`--> `v`, `f(x)`--> `f_x`, `g(x)` --> `g_x`)
+
+and then solve for the symbols. After getting solution from `nonlinsolve` user can invert or do `solveset`
+
+(e.g. solveset(Eq(sin(x), soln_u), x, domain) to get value of `x`).
 
 * Ready for review.
 
