@@ -30,7 +30,7 @@ PR [#11188](https://github.com/sympy/sympy/pull/11188)
 
 PR [#11111](https://github.com/sympy/sympy/pull/11111)
 
-* Added some XFAIL test-cases of system of Trigonometric equations, `solveset` trig solver (`solve_trig`) is not smart enough. (`solveset` returns `ConditionSet`, which can be simply inverse trig functions using `_invert` or inverse Trigonometric functions). So `solveset` returns `ConditionSet` that means `substitution` is not getting soln.
+* Added some XFAIL test-cases of system of Trigonometric equations. `solveset` trig solver (`solve_trig`) is not smart enough(`solveset` returns `ConditionSet`, where soln can be simply inverse trig functions using `_invert` or inverse Trigonometric functions). So `solveset` returns `ConditionSet` that means `substitution` is not getting soln.
 
 * It is better to replace trigonometric functions or other `Function` with symbols
 
