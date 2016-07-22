@@ -15,8 +15,9 @@ in `simplify`, `trigsimp` and in `solveset` `_invert` methods.
 
     *  [https://en.wikipedia.org/wiki/Inverse_trigonometric_functions](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)
     *  [https://en.wikipedia.org/wiki/Proofs_of_trigonometric_identities](https://en.wikipedia.org/wiki/Proofs_of_trigonometric_identities)
+    * [https://owlcation.com/stem/List-of-Inverse-Trig-Function-Identities-Integrals-and-Derivatives](https://owlcation.com/stem/List-of-Inverse-Trig-Function-Identities-Integrals-and-Derivatives)
 
-* E.g 
+* E.g
 --------------------------------------------------------------------------------
 
 **Meanwhile :**
