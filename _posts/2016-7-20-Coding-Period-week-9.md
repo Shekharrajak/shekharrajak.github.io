@@ -8,23 +8,23 @@ type: post
 
 **Some points regarding trigonometric and inverse trigonometric functions in solveset :**
 
-* There are many issues in solveset `solve_trig`, which is because inverse trigonometric formula and trigonometric identities should be defined or improved
-in `simplify`, `trigsimp` and in `solveset` `_invert` methods.
+* There are many issues in solveset `solve_trig`.More inverse trigonometric formula and trigonometric identities should be defined/added or improved.
+Also `simplify`, `trigsimp` and in `solveset` `_invert` methods should be improved accordingly.
 
-* Some links
+* Some links, that is helpful to improve these functions.
 
     *  [https://en.wikipedia.org/wiki/Inverse_trigonometric_functions](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)
     *  [https://en.wikipedia.org/wiki/Proofs_of_trigonometric_identities](https://en.wikipedia.org/wiki/Proofs_of_trigonometric_identities)
     * [https://owlcation.com/stem/List-of-Inverse-Trig-Function-Identities-Integrals-and-Derivatives](https://owlcation.com/stem/List-of-Inverse-Trig-Function-Identities-Integrals-and-Derivatives)
 
-* `trigsimp` must be more powerful so that `solve_trig` get simplified eq that can be through its `exp` form.
+* `trigsimp` must be more powerful so that `solve_trig` get simplified eq. (which solves trig equation by converting them into its `exp` form).
 
 * `solve_trig` solves the trig eq. using its `exp` form. There may be cases when that `exp` form is complicated and solveset fail to handle that form.
 There should be technique to convert that complicated form to simpler form(if possible) and then call the `solveset_complex`. That may help to improve the `solve_trig` method.
 
 * We can use `_osbornei`, `hyper_as_trig` methods defined in `simplify/fu.py` to convert hyperbolic function to trigonometric function, then we can use `trigsimp` (we can't use `trigsimp` for hyperbolic functions).
 
-* Need to improve basic concepts and add more identities. I opened a new PR to improve `rewrite` for trigonometric functions , PR is [#11424](https://github.com/sympy/sympy/pull/11424/).
+* First need to improve basic concepts and add more identities. I opened a new PR to improve `rewrite` for trigonometric functions , PR is [#11424](https://github.com/sympy/sympy/pull/11424/).
 
 --------------------------------------------------------------------------------
 
