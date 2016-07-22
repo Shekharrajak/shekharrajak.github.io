@@ -17,7 +17,12 @@ in `simplify`, `trigsimp` and in `solveset` `_invert` methods.
     *  [https://en.wikipedia.org/wiki/Proofs_of_trigonometric_identities](https://en.wikipedia.org/wiki/Proofs_of_trigonometric_identities)
     * [https://owlcation.com/stem/List-of-Inverse-Trig-Function-Identities-Integrals-and-Derivatives](https://owlcation.com/stem/List-of-Inverse-Trig-Function-Identities-Integrals-and-Derivatives)
 
-* E.g
+* `trigsimp` must be more powerful so that `solve_trig` get simplified eq that can be through its `exp` form.
+
+* `solve_trig` solves the trig eq. using its `exp` form. There may be cases when that `exp` form is complicated and solveset fail to handle that form.
+There should be technique to convert that complicated form to simpler form(if possible) and then call the `solveset_complex`. That may help to improve the `solve_trig` method.
+
+* 
 --------------------------------------------------------------------------------
 
 **Meanwhile :**
