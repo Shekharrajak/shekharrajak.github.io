@@ -5,3 +5,17 @@ week: 24 July 2016 -  30 July 2016
 posted_on: 30 July 2016
 type: post
 ---
+
+--------------------------------------------------------------------------------
+
+**eliminate() continue:**
+
+* issue [#2720](https://github.com/sympy/sympy/issues/2720) : We need some kind of eliminate function, like [http://reference.wolfram.com/mathematica/ref/Eliminate.html](http://reference.wolfram.com/mathematica/ref/Eliminate.html). See also [http://stackoverflow.com/q/20826969/161801 ](http://stackoverflow.com/q/20826969/161801)
+
+* I am trying to use `subs` and `_invert` to get answer. May be one can use `replace`, `xreplace`, `match` to eliminate some kind of same sub expression.
+
+* There can be ans in `Imageset`, `Finiteset`, `Complement`, `Intersection` when we use `_invert`. So there should be a technique to handle it.
+
+* Still need some good idea and technique. WIP.
+
+**About solveset output should be consistent:*
