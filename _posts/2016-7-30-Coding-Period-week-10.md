@@ -18,4 +18,15 @@ type: post
 
 * Still need some good idea and technique. WIP.
 
-**About solveset output should be consistent:*
+--------------------------------------------------------------------------------
+
+**Output of solveset should be of one type:**
+
+* Amit discussed about it. Solution we see in `solveset` should be in one type of set. Right now we may have solution in `Imageset`, `Finiteset`, `Complement`, `Intersection` or `ConditionSet`. So there would be problem for user to handle these many solution type.
+
+* I think there should be something that separate `Complements`, `Intersections`,`ConditionSet` and main solution in `Finiteset`.
+
+* E.g. if solveset solution is `Intersection(Complement(FiniteSet(x), {y}), {z})` then
+soln : `FiniteSet(x)`, `x != {y}`, `{x} intersect {z}`.
+
+--------------------------------------------------------------------------------
