@@ -31,4 +31,17 @@ soln : `FiniteSet(x)`, `x != {y}`, `{x} intersect {z}`.
 
 --------------------------------------------------------------------------------
 
+**Continue Simplified Trig soln**
+
+PR [#11188](https://github.com/sympy/sympy/pull/11188)
+
+* According to the [Harsh comments/review](https://github.com/sympy/sympy/pull/11188#issuecomment-234789616) I modified the PR. Now it seems it is
+returning more simplified solution( [one case is here](https://github.com/sympy/sympy/pull/11188/commits/beaac312f03819bd7221887eb2b4cbe5d49bed5e#diff-85baa04bbf4e1dfd9128782738e45424R1141)) .
+
+* To understand the changes I did in the `_solve_trig` method, one should check [this gist](https://gist.github.com/Shekharrajak/17fdcd2320f572fc9fc8674823137e20)
+
+* To see the advantage of imageset union, One good example is in [this gist](https://gist.github.com/Shekharrajak/a5efc840d9a7d3062289f2d9c5f20b16)
+
+--------------------------------------------------------------------------------
+
 **_continue_**
