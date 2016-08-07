@@ -32,6 +32,32 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
 --------------------------------------------------------------------------------
 
+**Idea about improved _solve_trig in Solveset :**
+
+```
+
+In [1]: solveset(sin(x) + cos(y), x, S.Reals)
+Out[1]: {x | x ∊ ℝ ∧ sin(x) + cos(y) = 0}
+
+In [2]: solve(sin(x) + cos(y), x)
+Out[2]: [asin(cos(y)) + π, -asin(cos(y))]
+
+```
+
+* This above examples is enough to tell that `_solve_trig` is not using inverse trigonometric function. We can have something, which can solve trig equations by making free the symbol in lhs and in rhs inverse trig function.
+
+* `solveset(sin(2*x) - sqrt(3)*cos(2*x), x, S.Reals)` for this right now `_solve_trig` is converting it into `exp` form and solving it.
+But it is can be simply solved using `sin(x + y) == sin(x)*cos(y) + cos(x)*sin(y)` formula.
+
+* First divide both side with `sqrt(a**2 + b**2)` where `a, b` is coeff of `sin(2*x)` , `cos(2*x)`.
+
+* `sin(2*x)/2 - (sqrt(3)/2)*cos(2*x)` ==> `sin(2*x)*cos(pi/3) - sin(pi/3)*cos(2*x)` ==> `sin(2*x - pi/3)`.
+
+* Now `sin(2*x - pi/3)` is solvable using `solve_decomposition`.
+
+
+--------------------------------------------------------------------------------
+
 **Meanwhile :**
 
 * Some analysis about `Abs` solver :
