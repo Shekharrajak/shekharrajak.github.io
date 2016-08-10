@@ -32,7 +32,7 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
 
 --------------------------------------------------------------------------------
 
-**Idea about improved _solve_trig in Solveset :**
+**Idea for improved _solve_trig in Solveset :**
 
 ```
 
