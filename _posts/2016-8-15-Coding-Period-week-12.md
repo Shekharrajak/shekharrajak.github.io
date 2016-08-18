@@ -74,4 +74,12 @@ Out[5]: {2⋅n + 1/4 | n ∊ ℤ} ∪ {5⋅n + 5/4 | n ∊ ℤ}
 
 
 --------------------------------------------------------------------------------
+
+**Meanwhile :**
+
+* I found some more cases where `factor_list` fails and opened a PR : https://github.com/sympy/sympy/issues/11528
+
+
+--------------------------------------------------------------------------------
+
 ***continue..***
