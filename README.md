@@ -14,3 +14,10 @@ and `_layout` folder.
 * The site is fully mobile responsive. You will enjoy it's view in mobile :) 
 
 If you want to add something new in this repo, your PR is welcome.
+
+## Related to GSoC Project : 
+
+Solveset returns a set object and a set object takes care of all types of output. This project aimed to implement 
+Non-linear multivariate Equation solver (nonlinsolve, substitution function), improved Trigonometric equation solver, 
+Diophantine equation solver (Integer solution using solveset_integer function), Simplified Trigonometric solution.
+
