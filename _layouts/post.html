@@ -9,7 +9,11 @@ layout: default
 
 <body class="demo-6">
 	<div id="container" class="container intro-effect-grid">
-	{% include header-post-default.html %}
+	{% if page.sympy_post %}
+		{% include header-post-sympy.html %}
+	{% elsif page.sciruby_post %}
+		{% include header-post-sciruby.html %}
+	{% endif %}
 
 
 			<!-- Top Navigation -->
@@ -19,22 +23,10 @@ layout: default
 					{{ content }}
 
 					<!-- Page neviagation -->
-					<br />
-					<div class="PageNavigation">
-					  {% if page.previous.url %}
-					    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-					  {% endif %}
-					  {% if page.next.url %}
-					    <a class="next" style="float:right;" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-					  {% endif %}
-					</div>
-					<hr/>
+					{% include page_navigation.html %}
 					<!-- Page neviagation end -->
 
-					<!-- Place this tag where you want the button to render. -->
-					<a style="position: absolute;" class="github-button" href="https://github.com/shekharrajak"
-					data-style="mega" data-count-href="/shekharrajak/followers" data-count-api="/users/shekharrajak#followers"
-					data-count-aria-label="# followers on GitHub" aria-label="Follow @shekharrajak on GitHub">Follow @shekharrajak</a>
+					{% include follow_github_button.html %}
 			</div>
 
 			<div id="disqus_thread" style="	margin-top: 40px;"></div>

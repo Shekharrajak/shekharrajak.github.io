@@ -1,9 +1,16 @@
 ---
 layout: post
+sympy_post: true
 title: Coding Period Week 9
 week: 17 July 2016 -  23 July 2016
 posted_on: 21 July 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 
 **Some points regarding trigonometric and inverse trigonometric functions in solveset :**

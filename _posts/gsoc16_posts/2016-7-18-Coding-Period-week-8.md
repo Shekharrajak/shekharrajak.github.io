@@ -1,9 +1,16 @@
 ---
 layout: post
+sympy_post: true
 title: Coding Period Week 8
 week: 10 July 2016 -  16 July 2016
 posted_on: 18 July 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 
 --------------------------------------------------------------------------------
@@ -67,9 +74,9 @@ In [3]: img = ImageSet(Lambda(n, x/n), S.Integers)
 
 In [4]: Intersection(img, S.Complexes)
 Out[4]:
-⎧x        ⎫    
+⎧x        ⎫
 ⎨─ | n ∊ ℤ⎬ ∩ ℂ
-⎩n        ⎭    
+⎩n        ⎭
 
 In [5]: Intersection(ImageSet(Lambda(n, 2*n*I*pi), S.Integers), S.Complexes)
 Out[5]: {2⋅ⅈ⋅π⋅n | n ∊ ℤ} ∩ ℂ

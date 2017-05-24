@@ -4,6 +4,13 @@ title: Contribution before GSoC
 week: Sept 2015 -June 2016
 posted_on: 24 April 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
+sympy_post: true
 ---
 
 ### SymPy :

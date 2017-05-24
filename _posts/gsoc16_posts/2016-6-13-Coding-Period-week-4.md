@@ -1,9 +1,16 @@
 ---
 layout: post
+sympy_post: true
 title: Coding Period Week 4
 week: 12 June 2016 - 18 June 2016
 posted_on: 13 June 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 
 #### `Solveset` when `domain = S.Integers`

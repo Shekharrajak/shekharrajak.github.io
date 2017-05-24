@@ -1,9 +1,16 @@
 ---
 layout: post
+sympy_post: true
 title: Coding Period Week 1
 week: 23 May 2016 - 28 May 2016
 posted_on: 22 Mayl 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 ### nlinsolve continue
 

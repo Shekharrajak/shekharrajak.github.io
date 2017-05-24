@@ -1,9 +1,16 @@
 ---
 layout: post
+sympy_post: true
 title: Coding Period Week 10
 week: 24 July 2016 -  30 July 2016
 posted_on: 30 July 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 
 --------------------------------------------------------------------------------

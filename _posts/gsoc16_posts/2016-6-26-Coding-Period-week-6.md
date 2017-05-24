@@ -1,9 +1,16 @@
 ---
 layout: post
+sympy_post: true
 title: Coding Period Week 6
 week: 26 June 2016 -  2 July 2016
 posted_on: 21 June 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 
 **Continue nonlinsolve :**
@@ -93,7 +100,7 @@ PR [11234](https://github.com/sympy/sympy/pull/11234)
       >>> diop_general_pythagorean(a**2 + b**2 + c**2 - d**2)
       (m1**2 + m2**2 - m3**2, 2*m1*m3, 2*m2*m3, m1**2 + m2**2 + m3**2)
       >>> diop_general_pythagorean(9*a**2 - 4*b**2 + 16*c**2 + 25*d**2 + e**2)
-      (10*m1**2  + 10*m2**2  + 10*m3**2 - 10*m4**2, 15*m1**2  + 15*m2**2  
+      (10*m1**2  + 10*m2**2  + 10*m3**2 - 10*m4**2, 15*m1**2  + 15*m2**2
         + 15*m3**2  + 15*m4**2, 15*m1*m4, 12*m2*m4, 60*m3*m4)
 
       >>> from sympy.solvers.diophantine import diop_general_sum_of_even_powers

@@ -1,9 +1,17 @@
 ---
 layout: post
+sympy_post: true
 title: Coding Period Week 13 - Last week and conclusion
 week: 16 August 2016 -  22 August 2016
 posted_on: 21 August 2016
 type: post
+sympy_post: true
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 
 --------------------------------------------------------------------------------

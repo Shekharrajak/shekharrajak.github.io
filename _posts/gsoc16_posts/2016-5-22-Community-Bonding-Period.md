@@ -1,9 +1,16 @@
 ---
 layout: post
+sympy_post: true
 title: Community Bonding Period
 week:  23 April 2016 - 22 May 2016
 posted_on: 22 May 2016
 type: post
+categories: gsoc2016_post
+permalink: /blog/GSoC-2016/:title
+tags:
+  - Open Source
+  - GSoC
+  - SymPy
 ---
 
 
