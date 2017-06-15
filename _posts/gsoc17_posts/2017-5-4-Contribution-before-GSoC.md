@@ -33,17 +33,19 @@ Then in Feb/March 2017 I setup it properly in my MacBook and started contributin
 
 #### Contribution
 
-I always get quick response on my PRs and discussions. Slowly I understood the codebase of
-Daru, after reading blogs and discussions. I am always interested to contribute to an open
-source and this gives me a good platform.
+I always get quick response on my PRs and discussions. Slowly I understood the codebase of Daru, after reading blogs and discussions. I am always interested to contribute to an open source and this gives me a good platform.
 
 My all the PRs to Daru repo can be found in this link : [https://github.com/SciRuby/daru/pulls/shekharrajak](https://github.com/SciRuby/daru/pulls/shekharrajak)
 
-Merged [PR #312](https://github.com/SciRuby/daru/pull/312) : Where clause when data contains missing/undefined values.
-Merged [PR #313](https://github.com/SciRuby/daru/pull/312) : Removed unnecessary spaces from the all files of Daru.
-Merged [PR #314](https://github.com/SciRuby/daru/pull/312) : Defined `is_values` for Index.
-Merged [PR #315](https://github.com/SciRuby/daru/pull/312) : Defined sort for Index and sort_by_index for vector.
-Unmerged [PR #323] : Defined name attr for Index and MultiIndex.
+- Merged [PR #312](https://github.com/SciRuby/daru/pull/312) : Where clause when data contains missing/undefined values.
+
+- Merged [PR #313](https://github.com/SciRuby/daru/pull/313) : Removed unnecessary spaces from the all files of Daru.
+
+- Merged [PR #314](https://github.com/SciRuby/daru/pull/314) : Defined `is_values` for Index.
+
+- Merged [PR #315](https://github.com/SciRuby/daru/pull/315) : Defined sort for Index and sort_by_index for vector.
+
+- Unmerged [PR #323](https://github.com/SciRuby/daru/pull/323) : Defined name attr for Index and MultiIndex.
 
 
 #### Getting ready to choose a Project

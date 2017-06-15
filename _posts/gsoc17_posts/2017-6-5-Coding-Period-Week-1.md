@@ -93,9 +93,17 @@ script must be written in head tag and `div` in the body tag. Template is create
 
 1. I have added dummy_rails app in spec folder, that will contain all the plotting features examples. Right now I have added Nyaplot examples . The commit link : [https://github.com/Shekharrajak/daru-view/pull/3/commits/f173906feccef737bc90ae42ffcfa967df3d315c](https://github.com/Shekharrajak/daru-view/pull/3/commits/f173906feccef737bc90ae42ffcfa967df3d315c)
 
-2. I found that lazy_high_charts gem is not able to plot in IRuby notebook . I discussed about it in this issue : [https://github.com/michelson/lazy_high_charts/issues/235](https://github.com/michelson/lazy_high_charts/issues/235)
-and fixes the issue in this PR : [https://github.com/michelson/lazy_high_charts/pull/236](https://github.com/michelson/lazy_high_charts/pull/236)
+2. I found that lazy_high_charts gem is not able to plot in IRuby notebook . I discussed about it in this issue : [https://github.com/michelson/lazy_high_charts/issues/235](https://github.com/michelson/lazy_high_charts/issues/235) and fixes the issue in this PR : [https://github.com/michelson/lazy_high_charts/pull/236](https://github.com/michelson/lazy_high_charts/pull/236)
 
 I hope it will be merged and we will be able to use it in daru-view.
+
+
+##### 5 June 2017 report :
+
+1. Wrote blog post : [http://shekharrajak.github.io/gsoc_2017_posts/](http://shekharrajak.github.io/gsoc_2017_posts/) . I will add more contents soon.
+
+2. In daru-view spec/dummy_rails app I got some error. I found that there is little problem in generating `div` part of the chart by Nyaplot, so it is just showing border of the chart in rails app (It works fine in IRuby notebook). Also it works fine when I used Nyaplot gem directly in web application. I hope it will be fixed soon.
+
+3. Designing a good method to get chart using Highcharts that will help to pass options and data from daru dataframe, vectors to highcharts. Pr : [https://github.com/michelson/lazy_high_charts/pull/236](https://github.com/michelson/lazy_high_charts/pull/236) to get the chart in IRuby from highcharts will be merged soon, That will help in daru-view .
 
 -------------------------------------------------
