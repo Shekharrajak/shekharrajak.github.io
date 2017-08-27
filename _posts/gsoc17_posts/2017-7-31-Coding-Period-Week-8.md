@@ -64,7 +64,7 @@ tags:
 -------------------------------------------------
 
 
-**Few things I reviewed on arrayfire-rb @prasunanand **
+**Few things I reviewed on arrayfire-rb @prasunanand**
 
 * Installation is fine and easy. Just need to install OpenCL and arrayfire. Then we can clone the repo and do according to the readme.
 
