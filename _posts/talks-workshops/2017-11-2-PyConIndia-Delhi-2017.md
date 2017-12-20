@@ -1,6 +1,6 @@
 ---
 layout: post
-sympy_post: true
+conf_post: true
 title: PyCon India - Delhi 2017
 posted_on: 18 Dec 2017
 categories: conference
