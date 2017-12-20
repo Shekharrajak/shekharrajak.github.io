@@ -32,10 +32,10 @@ So we started discussion for the same. SymEngine project GSoCers, worked for the
 
 People who took part for writting the proposal were : 
 
-- Amit Kumar, Core Developer & GSoC-cer at SymPy
-- Shekhar Prasad Rajak : NIT Warangal | Core Developer at SymPy GSoC 2016 | Solvers, Sets 
-- Shikhar Jaiswal : IIT Patna | Student Developer at SymPy GSoC 2017 | SymPy - SymEngine Integration and Python Wrappers
-- Ranjith Kumar : IIT Kharagpur | Student Developer at SymPy GSoC 2017 | Solvers and Sets in SymEngine
+* Amit Kumar, Core Developer & GSoC-cer at SymPy
+* Shekhar Prasad Rajak : Core Developer at SymPy GSoC 2016 | Solvers, Sets 
+* Shikhar Jaiswal : Student Developer at SymPy GSoC 2017 | SymPy - SymEngine Integration and Python Wrappers
+* Ranjith Kumar : Student Developer at SymPy GSoC 2017 | Solvers and Sets in SymEngine
 
 Thanks for contributing on the proposal.
 
@@ -64,9 +64,21 @@ We followed the previous year conferences.Mainly these links:
 - [Basic tutorial](https://github.com/sympy/sympy/wiki/Tutorial)
 
 
+-----------------------------------------------
+
 **Contents**
 
-TODO
+We divided the tutorial part into SymPy and SymEngine. 
+
+* [SymPy material we used](https://github.com/Shekharrajak/PyCon-SymPy-SymEngine/tree/master/SymPy_material)
+
+* [SymEngine material we used](https://github.com/Shekharrajak/PyCon-SymPy-SymEngine/tree/master/SymEngine_material)
+
+* [Link for the presentation for the workshop day](https://shekharrajak.github.io/PyCon-SymPy-SymEngine/slides-pyconindia2017).
+
+* Interested people can download the IPython noteboook for the tutorial from [this link](https://github.com/Shekharrajak/PyConIndiaSymPyTutorial/archive/master.zip).
+
+* If people want to see the examples online , it is avaiable [here](http://nbviewer.jupyter.org/github/Shekharrajak/PyCon-SymPy-SymEngine/tree/master/SymPy_material/tutorial_exercises/). 
 
 -------------------------------------------------
 
