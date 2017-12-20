@@ -40,3 +40,5 @@ You can find my application here :
 ### And this is the happiest moment of this journey
 
 <div class="result"> <img src="{{ site.baseurl }}/images/img/result.png"/>  </div>
+
+-----------------------------------
