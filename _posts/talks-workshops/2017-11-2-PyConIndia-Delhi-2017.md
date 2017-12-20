@@ -34,20 +34,28 @@ So we started discussion for the same. SymEngine project GSoCers worked for the 
 
 **Github repo**
 
-
+TODO
 
 **Contents**
+
+TODO
 
 -------------------------------------------------
 
 #### 2nd Nov : The workshop day
 
+TODO
+
 -------------------------------------------------
 
 #### After the workshop :
 
+TODO
+
 -------------------------------------------------
 
 #### Conclusion
+
+TODO
 
 -------------------------------------------------
