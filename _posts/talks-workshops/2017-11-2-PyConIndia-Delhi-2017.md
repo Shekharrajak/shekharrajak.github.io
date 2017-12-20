@@ -109,9 +109,12 @@ workshops as well. I left earlier, since I was sleepy because of night journey f
 
 #### Conclusion
 
-Overall it was good experience. Thanks to PyCon India community for giving us this opportunity.
-I hope in future we will have more interesting topics to talk on SymPy and SymEngine. And audience
-will enjoy to learn SymPy and SymEngine.
+Overall it was good experience. Since I started preparing the proposal much before the deadline. So we were
+able to finish it up on time. I was busy in the month of August, Sept, Oct but we finished the resources and slides on time.
+I was expecting some more things to be covered, but it's fine. I had written few things in the <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine/wiki" target="_blank">Github repo wiki page</a>.
+Thanks to PyCon India community for giving us this opportunity.
+I hope in future we will have more interesting topics to talk on SymPy and SymEngine and audience
+will enjoy to learn SymPy and SymEngine along with us.
 
 
 -------------------------------------------------
