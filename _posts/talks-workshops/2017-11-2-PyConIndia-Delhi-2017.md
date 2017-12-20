@@ -32,10 +32,10 @@ So we started discussion for the same. SymEngine project GSoCers, worked for the
 
 People who took part for writting the proposal were : 
 
-- Amit Kumar, Core Developer & GSoC-cer at SymPy
-- Shekhar Prasad Rajak : NIT Warangal | Core Developer at SymPy GSoC 2016 | Solvers, Sets 
-- Shikhar Jaiswal : IIT Patna | Student Developer at SymPy GSoC 2017 | SymPy - SymEngine Integration and Python Wrappers
-- Ranjith Kumar : IIT Kharagpur | Student Developer at SymPy GSoC 2017 | Solvers and Sets in SymEngine
+* Amit Kumar, Core Developer & GSoC-cer at SymPy
+* Shekhar Prasad Rajak : NIT Warangal | Core Developer at SymPy GSoC 2016 | Solvers, Sets 
+* Shikhar Jaiswal : IIT Patna | Student Developer at SymPy GSoC 2017 | SymPy - SymEngine Integration and Python Wrappers
+* Ranjith Kumar : IIT Kharagpur | Student Developer at SymPy GSoC 2017 | Solvers and Sets in SymEngine
 
 Thanks for contributing on the proposal.
 
