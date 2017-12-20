@@ -41,11 +41,28 @@ Thanks for contributing on the proposal.
 
 -------------------------------------------------
 
-#### Outline
+#### Computer aided algebra system (CAS) for different programming languages using SymEngine and SymPy
 
 **Github repo**
 
-TODO
+I extended the previous year PyCon repo : <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine" target="_blank">(Github repo for the tutorial resources)</a>  and modified it. We added some new contents and SymEngine tutorials added as well. 
+
+We followed the previous year conferences.Mainly these links:
+
+- [PyCon India 2015](https://in.pycon.org/cfp/pycon-india-2015/proposals/symbolic-computation-with-python-sympy~bqYrb/)
+
+- [PyDelhi Conference 2016](https://cfp.pydelhi.org/pydelhi-conference-2016/proposals/symbolic-computation-with-python-using-sympy/) 
+
+- [Pycon UK 2016](https://www.youtube.com/watch?v=f4cXX0wa9VM&t=599s)
+
+- Mechanics : [https://www.moorepants.info/blog/npendulum.html](https://www.moorepants.info/blog/npendulum.html)
+
+- [plotting example](https://www.youtube.com/watch?v=EG9uOGPBkvQ)
+
+- [http://mattpap.github.io/scipy-2011-tutorial/html/basics.html](http://mattpap.github.io/scipy-2011-tutorial/html/basics.html)
+
+- [Basic tutorial](https://github.com/sympy/sympy/wiki/Tutorial)
+
 
 **Contents**
 
