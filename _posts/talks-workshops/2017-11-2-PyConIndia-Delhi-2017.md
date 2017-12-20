@@ -33,9 +33,9 @@ So we started discussion for the same. SymEngine project GSoCers, worked for the
 People who took part for writting the proposal were : 
 
 * Amit Kumar, Core Developer & GSoC-cer at SymPy
-* Shekhar Prasad Rajak : Core Developer at SymPy GSoC 2016 | Solvers, Sets 
-* Shikhar Jaiswal : Student Developer at SymPy GSoC 2017 | SymPy - SymEngine Integration and Python Wrappers
-* Ranjith Kumar : Student Developer at SymPy GSoC 2017 | Solvers and Sets in SymEngine
+* Shekhar Prasad Rajak : Core Developer at SymPy GSoC 2016 - Solvers, Sets 
+* Shikhar Jaiswal : Student Developer at SymPy GSoC 2017 - SymPy - SymEngine Integration and Python Wrappers
+* Ranjith Kumar : Student Developer at SymPy GSoC 2017 - Solvers and Sets in SymEngine
 
 Thanks for contributing on the proposal.
 
@@ -82,20 +82,36 @@ We divided the tutorial part into SymPy and SymEngine.
 
 -------------------------------------------------
 
-#### 2nd Nov : The workshop day
+#### 2nd Nov 2017: The workshop day
 
-TODO
+I reached to the delhi Airport on 2nd Nov around 1AM. Somehow I was able to get room nearby the PyCon center at 5AM :p.
+I reached to PyCon center at 9:00AM via Ola cab. Amit and Ranjith were not available during the PyCon India 2017.
+So me and Shikhar were present on time as the Speaker for the workshop. 
+
+We faced some projector issue but fine, we were able to present the slides and tutorial went well. I started the
+presentation and slowly went to the tutorial part from beginning to some advance examples.
+
+Shikhar took the mic and covered the SymEngine presentation and basic examples. We finished the workshop on time
+and then enjoyed lunch.
+
+Audience had some good questions and they keep questioning during the workshop. It was a pretty good 
+experience. It was our first talk/workshop, so we were satisfied with out performance. Hope we will have more 
+pretty good talks/workshops in upcoming conferences, which will transfer the knowledge.
 
 -------------------------------------------------
 
 #### After the workshop :
 
-TODO
+During the lunch, me and shikhar interacted with fellow speakers and GSoCers. We joined some other
+workshops as well. I left earlier, since I was sleepy because of night journey from the Banglore. 
 
 -------------------------------------------------
 
 #### Conclusion
 
-TODO
+Overall it was good experience. Thanks to PyCon India community for giving us this opportunity.
+I hope in future we will have more interesting topics to talk on SymPy and SymEngine. And audience
+will enjoy to learn SymPy and SymEngine.
+
 
 -------------------------------------------------
