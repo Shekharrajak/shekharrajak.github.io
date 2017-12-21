@@ -95,8 +95,8 @@ Shikhar took the mic and covered the SymEngine presentation and basic examples. 
 and then enjoyed lunch.
 
 Audience had some good questions and they keep questioning during the workshop. It was a pretty good 
-experience. It was our first talk/workshop, so we were satisfied with out performance. Hope we will have more 
-pretty good talks/workshops in upcoming conferences, which will transfer the knowledge.
+experience. It was our first talk/workshop, so we were satisfied with out performance. Hope we will have  
+better talks/workshops in upcoming conferences, which will transfer the knowledge.
 
 -------------------------------------------------
 
@@ -111,7 +111,7 @@ workshops as well. I left earlier, since I was sleepy because of night journey f
 
 Overall it was good experience. Since I started preparing the proposal much before the deadline. So we were
 able to finish it up on time. I was busy in the month of August, Sept, Oct but we finished the resources and slides on time.
-I was expecting some more things to be covered, but it's fine. I had written few things in the <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine/wiki" target="_blank">Github repo wiki page</a>.
+I was expecting some more things to be covered, but it's fine. I had written few things in the <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine/wiki" target="_blank">Github repo wiki page</a>, it may help for future speakers.
 Thanks to PyCon India community for giving us this opportunity.
 I hope in future we will have more interesting topics to talk on SymPy and SymEngine and audience
 will enjoy to learn SymPy and SymEngine along with us.
