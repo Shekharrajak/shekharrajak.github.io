@@ -19,7 +19,9 @@ tags:
 
 #### Blogs on Medium
 
-1. [Sails JS ,Authentication using passportJS](https://medium.com/@Shekharrajak/sails-js-authentication-using-passportjs-87e40aee6160)
+1. [Sails JS ,Authentication using passportJS](https://medium.com/@Shekharrajak/sails-js-authentication-using-passportjs-87e40aee6160): 
+
+This blog is about - how to login / signUp using passportJS in Sails app. The code is available in github repo.
 
 
 -------------------------------------------------
