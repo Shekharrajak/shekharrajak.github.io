@@ -45,7 +45,7 @@ Thanks for contributing on the proposal.
 
 **Github repo**
 
-I extended the previous year PyCon repo : <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine" target="_blank">(Github repo for the tutorial resources)</a>  and modified it. We added some new contents and SymEngine tutorials added as well.
+I extended the previous year PyCon repo : <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine" target="_blank">(Github repo for the tutorial & resources)</a>  and modified it. We added some new contents and SymEngine tutorials added as well.
 
 We followed the previous year conferences.Mainly these links:
 
@@ -88,7 +88,7 @@ I reached to the delhi Airport on 2nd Nov around 1AM. Somehow I was able to get 
 
 <div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/cloud2.jpg"/>  </div>
 
-I reached to PyCon center at 9:00AM via Ola cab. Amit and Ranjith were not available during the PyCon India 2017.
+I reached to PyCon center at around 9:00AM via cab. Amit and Ranjith were not able to join the PyCon India 2017.
 So me and Shikhar were present on time as the Speaker for the workshop.
 
 <div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/speaker.jpg"/>  </div>
@@ -98,13 +98,12 @@ presentation and slowly went to the tutorial part from beginning to some advance
 
 <div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/stage.jpg"/>  </div>
 
-Shikhar took the mic and covered the SymEngine presentation and basic examples. We finished the workshop on time
-and then enjoyed lunch.
+Shikhar took the mic and covered the SymEngine presentation and basic examples.
 
 <div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/stage2.jpg"/>  </div>
 
 Audience had some good questions and they keep questioning during the workshop. It was a pretty good
-experience. It was our first talk/workshop, so we were satisfied with out performance. Hope we will have
+experience. It was our first talk/workshop, so we were satisfied with our performance. Hope we will have
 better talks/workshops in upcoming conferences, which will transfer the knowledge.
 
 -------------------------------------------------
@@ -119,7 +118,7 @@ workshops as well. I left earlier, since I was sleepy because of night journey f
 #### Conclusion
 
 Overall it was good experience. Since I started preparing the proposal much before the deadline. So we were
-able to finish it up on time. I was busy in the month of August, Sept, Oct but we finished the resources and slides on time.
+able to finish it up on time. I was busy in the month of August, Sept, Oct but we were able to finish the resources and slides on time.
 I was expecting some more things to be covered, but it's fine. I had written few things in the <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine/wiki" target="_blank">Github repo wiki page</a>, it may help for future speakers.
 Thanks to PyCon India community for giving us this opportunity.
 I hope in future we will have more interesting topics to talk on SymPy and SymEngine and audience
