@@ -20,20 +20,20 @@ tags:
 
 #### PyCon India Delhi 2017 : Proposal for Workshop
 
-I am very much interested for conferences and talks/workshops and had submitted the workshop 
-proposal last year(2016) as well for PyCon India. So this year 
-I started the discussion for the workshop proposal earlier, in the 
+I am very much interested for conferences and talks/workshops and had submitted the workshop
+proposal last year(2016) as well for PyCon India. So this year
+I started the discussion for the workshop proposal earlier, in the
 <a href="https://groups.google.com/forum/#!searchin/sympy/pycon$20india%7Csort:date/sympy/s6IOYvHnHxU/xiiY0vdlAQAJ" target="_blank">SymPy Google mailing thread</a>
-to make the workshop proposal 
-interesting and improved the tutorial contents.
+to make the workshop proposal
+interesting and to improve the tutorial contents.
 
 Since on 2016 proposal, we got the suggestion for adding SymEngine as well into the tutorial content.
-So we started discussion for the same. SymEngine project GSoCers, worked for the SymEngine tutorial part. 
+So we started discussion for the same. SymEngine project GSoCers, worked for the SymEngine tutorial part.
 
-People who took part for writting the proposal were : 
+People who took part for writting the proposal were :
 
 * Amit Kumar, Core Developer & GSoC-cer at SymPy
-* Shekhar Prasad Rajak : Core Developer at SymPy GSoC 2016 - Solvers, Sets 
+* Shekhar Prasad Rajak : Core Developer at SymPy GSoC 2016 - Solvers, Sets
 * Shikhar Jaiswal : Student Developer at SymPy GSoC 2017 - SymPy - SymEngine Integration and Python Wrappers
 * Ranjith Kumar : Student Developer at SymPy GSoC 2017 - Solvers and Sets in SymEngine
 
@@ -45,13 +45,13 @@ Thanks for contributing on the proposal.
 
 **Github repo**
 
-I extended the previous year PyCon repo : <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine" target="_blank">(Github repo for the tutorial resources)</a>  and modified it. We added some new contents and SymEngine tutorials added as well. 
+I extended the previous year PyCon repo : <a href="https://github.com/Shekharrajak/PyCon-SymPy-SymEngine" target="_blank">(Github repo for the tutorial resources)</a>  and modified it. We added some new contents and SymEngine tutorials added as well.
 
 We followed the previous year conferences.Mainly these links:
 
 - [PyCon India 2015](https://in.pycon.org/cfp/pycon-india-2015/proposals/symbolic-computation-with-python-sympy~bqYrb/)
 
-- [PyDelhi Conference 2016](https://cfp.pydelhi.org/pydelhi-conference-2016/proposals/symbolic-computation-with-python-using-sympy/) 
+- [PyDelhi Conference 2016](https://cfp.pydelhi.org/pydelhi-conference-2016/proposals/symbolic-computation-with-python-using-sympy/)
 
 - [Pycon UK 2016](https://www.youtube.com/watch?v=f4cXX0wa9VM&t=599s)
 
@@ -68,7 +68,7 @@ We followed the previous year conferences.Mainly these links:
 
 **Contents**
 
-We divided the tutorial part into SymPy and SymEngine. 
+We divided the tutorial part into SymPy and SymEngine.
 
 * [SymPy material we used](https://github.com/Shekharrajak/PyCon-SymPy-SymEngine/tree/master/SymPy_material)
 
@@ -78,24 +78,33 @@ We divided the tutorial part into SymPy and SymEngine.
 
 * Interested people can download the IPython noteboook for the tutorial from [this link](https://github.com/Shekharrajak/PyConIndiaSymPyTutorial/archive/master.zip).
 
-* If people want to see the examples online , it is avaiable [here](http://nbviewer.jupyter.org/github/Shekharrajak/PyCon-SymPy-SymEngine/tree/master/SymPy_material/tutorial_exercises/). 
+* If people want to see the examples online , it is avaiable [here](http://nbviewer.jupyter.org/github/Shekharrajak/PyCon-SymPy-SymEngine/tree/master/SymPy_material/tutorial_exercises/).
 
 -------------------------------------------------
 
 #### 2nd Nov 2017: The workshop day
 
 I reached to the delhi Airport on 2nd Nov around 1AM. Somehow I was able to get room nearby the PyCon center at 5AM :p.
+
+<div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/cloud2.jpg"/>  </div>
+
 I reached to PyCon center at 9:00AM via Ola cab. Amit and Ranjith were not available during the PyCon India 2017.
-So me and Shikhar were present on time as the Speaker for the workshop. 
+So me and Shikhar were present on time as the Speaker for the workshop.
+
+<div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/speaker.jpg"/>  </div>
 
 We faced some projector issue but fine, we were able to present the slides and tutorial went well. I started the
 presentation and slowly went to the tutorial part from beginning to some advance examples.
 
+<div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/stage.jpg"/>  </div>
+
 Shikhar took the mic and covered the SymEngine presentation and basic examples. We finished the workshop on time
 and then enjoyed lunch.
 
-Audience had some good questions and they keep questioning during the workshop. It was a pretty good 
-experience. It was our first talk/workshop, so we were satisfied with out performance. Hope we will have  
+<div class="post_pic"> <img src="{{ site.baseurl }}/images/pyconIndiaDelhi/stage2.jpg"/>  </div>
+
+Audience had some good questions and they keep questioning during the workshop. It was a pretty good
+experience. It was our first talk/workshop, so we were satisfied with out performance. Hope we will have
 better talks/workshops in upcoming conferences, which will transfer the knowledge.
 
 -------------------------------------------------
@@ -103,7 +112,7 @@ better talks/workshops in upcoming conferences, which will transfer the knowledg
 #### After the workshop :
 
 During the lunch, me and shikhar interacted with fellow speakers and GSoCers. We joined some other
-workshops as well. I left earlier, since I was sleepy because of night journey from the Banglore. 
+workshops as well. I left earlier, since I was sleepy because of night journey from the Banglore.
 
 -------------------------------------------------
 
