@@ -1,11 +1,11 @@
 ---
 layout: post
 conf_post: true
-title: PyCon India - Delhi 2017
-posted_on: 18 Dec 2017
+title: RubyConf India Bangalore 2018
+posted_on: 10 Feb 2018
 categories: conference
 type: post
-permalink: /blog/Talks/SymPy/:title
+permalink: /blog/Talks/SciRuby/:title
 tags:
   - Open Source
   - SciRuby
