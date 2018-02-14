@@ -25,7 +25,7 @@ I had submitted the proposal for Ruby Conference, but unfortunatily it was not g
 created daru plugin gem `daru-io` and `daru-view`
 
 I bought the ticket somehow, since all the tickets get sold out. I got the early bird ticket from someone who was
-not available for the conference and transferred the ticket to me. Thanks to his. Prasun helped me to get the ticket.
+not available for the conference and transferred the ticket to me. Thanks to his. [Prasun](https://github.com/prasunanand) helped me to get the ticket.
 
 Since audience get chance to talk for few minutes in lightening/flash talk. I get chance to talk about daru-view.
 
@@ -61,7 +61,7 @@ and daru-io gem
 
 #### 9 Feb 2018: Day 1
 
-On day 1, I reached to the center around 10 AM and meet with Prasun and Victor at the afternoon. Discussion with Prasun and other speakers, audience was really good during lunch break and tea break. I met with many awesome peoples and came across projects, ideas.
+On day 1, I reached to the center around 10 AM and meet with [Prasun](https://github.com/prasunanand) and [Victor](https://github.com/zverok) at the afternoon. Discussion with Prasun and other speakers, audience was really good during lunch break and tea break. I met with many awesome peoples and came across projects, ideas.
 
 Evening slot I get chance to present talk on stage and represented the SciRuby (Ruby Science foundation). Thanks to RubyConf, it was really great feeling to be at the front of world top class speakers.
 
@@ -88,7 +88,7 @@ At the evening we get Dinner and drinks in the RubyConf itself. People were very
 
 #### 10th Feb 2018: Day 2
 
-Morning session 2 SciRuby members Victor and Prasuna had presented the talk. 
+Morning session 2 SciRuby members [Victor](https://github.com/zverok) and Prasun had presented the talk. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/RCI18?src=hash&amp;ref_src=twsrc%5Etfw">#RCI18</a> <a href="https://twitter.com/hashtag/RubyConfIndia?src=hash&amp;ref_src=twsrc%5Etfw">#RubyConfIndia</a> Slides for my &quot;When the whole world is your database&quot; talk <a href="https://t.co/OjckpXFeDM">https://t.co/OjckpXFeDM</a></p>&mdash; Зверёк (@zverok) <a href="https://twitter.com/zverok/status/962240286918295552?ref_src=twsrc%5Etfw">February 10, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
