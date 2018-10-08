@@ -23,5 +23,9 @@ tags:
 
 This blog is about - how to login / signUp using passportJS in Sails app. The code is available in github repo.
 
+2. [My journey to Full Stack Developer](https://medium.com/@Shekharrajak/my-full-stack-developer-journey-bccd4d666a00):
+
+Regarding the training that boosted my front end and back end skill.I met with amazing people and learnt very cool tehcnologies. 
+
 
 -------------------------------------------------
