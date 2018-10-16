@@ -27,5 +27,10 @@ This blog is about - how to login / signUp using passportJS in Sails app. The co
 
 Regarding the training that boosted my front end and back end skill.I met with amazing people and learnt very cool tehcnologies. 
 
+3. [Download static or generated file with Node.js and express module](https://medium.com/@Shekharrajak/node-js-download-static-or-generated-file-d7e2f9d65f40) :
+
+This article will demonstarte a simple way to serve your static or dynamically generated file. We create  dowonload link which will display the content or pop up a window to download the file.
+
+
 
 -------------------------------------------------
