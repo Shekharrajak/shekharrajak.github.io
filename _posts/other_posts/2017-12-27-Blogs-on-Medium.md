@@ -2,7 +2,7 @@
 layout: post
 other_post: true
 title: Blogs on Medium
-posted_on: 27 Dec 2017
+posted_on: frequently updating
 categories: other
 type: post
 permalink: /blog/medium/:title
