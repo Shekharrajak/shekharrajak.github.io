@@ -35,4 +35,9 @@ This article will demonstarte a simple way to serve your static or dynamically g
 
 This article is regarding some really cool features which are very helpful to implement any UI features.
 
+* [Interesting features of Node.js, I learnt](https://medium.com/@Shekharrajak/interesting-features-of-node-js-i-learnt-cc00f2647ef7):
+
+This article summarize some features of node.js, that helped me during my project.
+
+
 -------------------------------------------------
