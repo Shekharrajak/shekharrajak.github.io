@@ -64,5 +64,8 @@
 
   <link rel="shortcut icon" href="{{ site.baseurl }}/images/img/spr.png">
   <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+  {% endif %}
 </head>
 <div class="bg_loader"><div class="loader"></div></div>

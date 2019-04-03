@@ -9,20 +9,29 @@ layout: default
 
 <body class="demo-6">
 	<div id="container" class="container intro-effect-grid">
-	{% if page.sympy_post %}
-		{% include header-post-sympy.html %}
-	{% elsif page.sciruby_post %}
-		{% include header-post-sciruby.html %}
-	{% elsif page.conf_post %}
-		{% include header-post-conference.html %}
-	{% elsif page.other_post %}
-		{% include header-post-other.html %}
-	{% endif %}
+
+		{% if page.sympy_post %}
+			{% include header-post-sympy.html %}
+		{% elsif page.sciruby_post %}
+			{% include header-post-sciruby.html %}
+		{% elsif page.conf_post %}
+			{% include header-post-conference.html %}
+		{% elsif page.other_post %}
+			{% include header-post-other.html %}
+		{% endif %}
 
 
 			<!-- Top Navigation -->
-			<article class="content" style="padding-top:100px;">
+			<article class="content" style="padding-top:50px;">
+
 				<div>
+					<!-- followed : http://longqian.me/2017/02/09/github-jekyll-tag/ -->
+					<span>[
+					  {% for tag in page.tags %}
+					    {% capture tag_name %}{{ tag }}{% endcapture %}
+					    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+					  {% endfor %}
+					]</span>
 
 					{{ content }}
 

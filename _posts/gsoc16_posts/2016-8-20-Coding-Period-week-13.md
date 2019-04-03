@@ -8,10 +8,7 @@ type: post
 sympy_post: true
 categories: gsoc2016_post
 permalink: /blog/GSoC-2016/:title
-tags:
-  - Open Source
-  - GSoC
-  - SymPy
+tags: [Open Source, GSoC, SymPy]
 ---
 
 --------------------------------------------------------------------------------
