@@ -9,7 +9,7 @@ title: Google Summer of Code 2017
 			<header class="codrops-header">
 				<h1> Google Summer of Code 2017</h1>
 				<p> Organization : SciRuby - DaRU <br> Contribution before GSoC and GSoc Reports. </p>
-        <p> daru-view github repo site: <a href="https://shekharrajak.github.io/daru-view/">https://shekharrajak.github.io/daru-view/</a> </p>
+        <p> daru-view github repo site: <a href="https://sciruby.github.io/daru-view/">https://shekharrajak.github.io/daru-view/</a> </p>
         <p> daru-view github repo : <a href="https://github.com/Shekharrajak/daru-view">https://github.com/Shekharrajak/daru-view</a> </p>
         <p> All about daru-view(SciRuby blog post: Final report) <a href="https://github.com/Shekharrajak/daru-view/wiki/All-about-daru-view">https://github.com/Shekharrajak/daru-view/wiki/All-about-daru-view</a> </p>
 			</header>
