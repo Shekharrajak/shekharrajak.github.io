@@ -52,7 +52,7 @@ My main intention is :
 ● To preserve the Python API documentation which is generated using Sphinx (current Documentation Processing Tool for Python, which is the best tool, as per my knowledge for Python) and work on better [Sphinx theme](https://github.com/scipy/scipy-sphinx-theme).
 
 
-**Brief Overview **
+**Brief Overview**
 
 Current [www.numpy.org](http://www.numpy.org) page uses Sphinx for generating the docs (using docstring written before the method or class) for Python APIs and also for writing the static pages like:  NumPy User Guide, NumPy Benchmarking, F2Py Guide, NumPy Developer Guide, Building and Extending the Documentation, NumPy Reference , About NumPy pages.
 
@@ -61,17 +61,17 @@ So here we can shift the Static pages into better UI using SSG (Static Site Gene
 The main point is, we should have the following features in NumPy Static pages :
 
 
-1. Markdown based: So that technical writers don't have to worry about installation. They can write simply in .md file. Anyone can click on edit button shown in website (new feature) and contribute (edit/suggest changes for the page in Github) to make it better. This will engage users to add new content or edit content to improve it.
+1. **Markdown based:** So that technical writers don't have to worry about installation. They can write simply in .md file. Anyone can click on edit button shown in website (new feature) and contribute (edit/suggest changes for the page in Github) to make it better. This will engage users to add new content or edit content to improve it.
 
-2. Documentation Search:  User should be having search box, so that they can easily and quickly find out relevant contents.
+2. **Documentation Search:**  User should be having search box, so that they can easily and quickly find out relevant contents.
 
-3. Document Versioning: User should be able to switch between the old and new versions easily. They should be able to checkout old version details as well.
+3. **Document Versioning:** User should be able to switch between the old and new versions easily. They should be able to checkout old version details as well.
 
-4. Localization/Translation:  User may have option to switch between languages. They should be able to read in native language as well.
+4. **Localization/Translation:**  User may have option to switch between languages. They should be able to read in native language as well.
 
-5. New release note and Blogs:  Website should be updated with new blog posts and news about the current development and roadmap. So kind of blogging should be present in landing page.
+5. **New release note and Blogs:**  Website should be updated with new blog posts and news about the current development and roadmap. So kind of blogging should be present in landing page.
 
-6. Fast development:  Most of the SSG (Static Site Generator) frameworks are running in server and changes in file reflects immediately in UI. Also deploy and build process should be easy.
+6. **Fast development:**  Most of the SSG (Static Site Generator) frameworks are running in server and changes in file reflects immediately in UI. Also deploy and build process should be easy.
 
 7. In future, if we want to change the framework, we use. Then it should be easy. Most of the frameworks support Markdown writing so just moving the .md files and few changes should be enough.
 
