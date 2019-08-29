@@ -13,6 +13,8 @@ layout: default
 		{% include header-post-sympy.html %}
 	{% elsif page.sciruby_post %}
 		{% include header-post-sciruby.html %}
+  {% elsif page.scipy_post %}
+    {% include scipy/header-post-scipy.html %}
 	{% elsif page.conf_post %}
 		{% include header-post-conference.html %}
 	{% elsif page.other_post %}
