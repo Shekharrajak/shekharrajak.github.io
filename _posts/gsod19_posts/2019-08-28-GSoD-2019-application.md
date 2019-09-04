@@ -20,9 +20,9 @@ tags:
 
 #### Getting up for Project
 
-I came across a new program call Google Season of Docs. The origin of this program is basically from the GSoC mentor mailing list. I remember after completion of GSoC 2018 few members pointed out that writing documentation is very necessary along with the maintaing and developing the software.
+I came across a new program - Google Season of Docs in the month of April'19. The origin of this program is basically from the GSoC mentor mailing list. I remember after completion of GSoC 2018 few members pointed out that writing documentation is essential along with the maintaing and developing the software.
 
-Past GSoC mentors and students proposed Google to organize a separate program, just of improving the documentation of the Open Source Softwares.
+Past GSoC mentors and students proposed Google to organize a separate program, just for improving/enhancing the documentation of the Open Source Softwares.
 
 Next year 2019 Google announced the program - [Google Season of Docs](https://opensource.googleblog.com/2019/04/season-of-docs-org-apps.html).
 
