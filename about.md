@@ -34,14 +34,23 @@ permalink: /about/
     </div>
 
 
+<div class="border border-light  mb-4">
 
-    <div class="row justify-content-md-center pt-5">
 
-        <div class="col-md-auto">
-          <a href="https://shekharrajak.github.io/s-hacker.info_public/">Old Version</a> | <a target="_blank" href="https://github.com/Shekharrajak/Resume/raw/master/Resume%20PDF/resume.pdf"> Resume</a>
+
+      <div class="d-flex align-items-center justify-content-center" style="text-align: center;">
+        <div class="p-2">
+          <a href="https://shekharrajak.github.io/s-hacker.info_public/">Old Version</a>
+        </div>
+        <div class="p-2">
+           <a target="_blank" href="https://github.com/Shekharrajak/Resume/raw/master/Resume%20PDF/resume.pdf"> Resume</a>
         </div>
 
+      </div>
+
     </div>
+
+
 
 
 </div>
