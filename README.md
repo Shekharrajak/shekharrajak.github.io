@@ -4,12 +4,6 @@
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
-# My Additions :
-
-* I already had [blog](http://s-hacker.info/blog/gsoc16/subcat.html) template. To get the feed.xml I integrated my static blog with Jekyll.
-
-* This is partially created many things need to modify. specially `_config.yml`
-and `_layout` folder.
 
 * The site is fully mobile responsive. You will enjoy it's view in mobile :) 
 
